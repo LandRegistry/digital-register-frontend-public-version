@@ -1,0 +1,25 @@
+{
+  "name": "digital-register-frontend",
+  "version": "1.0.0",
+  "description": "This is the repo for the frontend of the digital register service. It is written in Python, with the Flask framework.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "node build_assets.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landregistry/digital-register-frontend.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/landregistry/digital-register-frontend/issues"
+  },
+  "homepage": "https://github.com/landregistry/digital-register-frontend#readme",
+  "devDependencies": {
+    "land-registry-elements": "github:landregistry/land-registry-elements#old-style-build"
+  }
+}

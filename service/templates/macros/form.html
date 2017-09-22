@@ -1,0 +1,66 @@
+{% macro element(form, name, label, value='',after_label='', after_input='', attributes, hint='', label_class='') -%}
+
+  <div class="form-group{% if form.errors[name] %} error{% endif %}">
+
+    {% if label %}
+      {{ form[name].label(class='form-label ' + label_class, text=label) }}
+    {% else %}
+      {{ form[name].label(class='form-label ' + label_class) }}
+    {% endif %}
+
+    {% if after_label %}
+      {{ after_label|safe }}
+    {% endif %}
+
+    {{ form[name](class='form-control', **attributes) }}
+
+    {% if after_input %}
+      {{ after_input|safe }}
+    {% endif %}
+
+    {% if hint %}
+      {{ hint|safe }}
+    {% endif %}
+
+    {% if form.errors[name] %}
+      {% if form.errors[name]|length > 1 %}
+        <div class="error-message">
+          <ul class="list list-bullet" id="error-message-{{ form[name].id }}">
+            {% for error in form.errors[name] %}
+              <li>{{ error }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% else %}
+        <span class="error-message" id="error-message-{{ form[name].id }}">{{ form.errors[name]|join(', ') }}</span>
+      {% endif %}
+    {% endif %}
+
+  </div>
+
+{%- endmacro %}
+
+{% macro block_checkbox(form, name) %}
+  <div class="form-group{% if form.errors[name] %} error{% endif %}">
+
+    <label class="block-label" for="{{name}}">
+      {{ form[name] }}
+
+      {{ form[name].label.text|safe }}
+    </label>
+
+    {% if form.errors[name] %}
+      {% if form.errors[name]|length > 1 %}
+        <div class="error-message">
+          <ul class="list list-bullet" id="error-message-{{ form[name].id }}">
+            {% for error in form.errors[name] %}
+              <li>{{ error }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% else %}
+        <span class="error-message" id="error-message-{{ form[name].id }}">{{ form.errors[name]|join(', ') }}</span>
+      {% endif %}
+    {% endif %}
+  </div>
+{% endmacro %}

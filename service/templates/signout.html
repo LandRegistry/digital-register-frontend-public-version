@@ -1,0 +1,17 @@
+{% extends "layouts/layout.html" %}
+
+{% block body %}
+
+<div class="grid-row">
+  <div class="column-two-thirds">
+    <h1 class="heading-large">Signed out</h1>
+    <p>You have now signed out.</p>
+    <p>If you need a different service you can <a href="{{ url_for('govuk_start_page') }}">return to the start page</a>.</p>
+
+    <h2 class="heading-medium">What did you think of this service?</h2>
+    <p class="spacing-bottom-flush"><a rel="external" href="{{ govuk_feedback_url }}">Please give us your feedback</a> (takes 30 seconds).</p>
+    <p>This is a new service and your feedback will help us improve it.</p>
+  </div>
+</div>
+
+{% endblock %}

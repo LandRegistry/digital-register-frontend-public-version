@@ -1,0 +1,23 @@
+{% extends "layouts/layout.html" %}
+
+{% block title %}Search{% endblock %}
+
+{% block body %}
+  <h1 class="heading-large">Search for land or property</h1>
+
+  <div class="grid-row spacing-top-single">
+
+    <div class="column-two-thirds tablet-column-two-thirds">
+
+      {% include 'includes/flash_messages.html' %}
+
+      {% with h1=false, autofocus=true, label='Enter a postcode, eg SW1A 2AA' %}
+        {% include 'includes/search_form.html' %}
+      {% endwith %}
+
+      <div class="panel panel-border-narrow">
+        <p>This service needs a postcode. If you don't know the postcode, <a rel="external" href="https://eservices.landregistry.gov.uk/wps/portal/Property_Search">use the Find a Property service</a> instead to search by street address, title number or by using a map.</p>
+      </div>
+    </div>
+  </div>
+{% endblock %}

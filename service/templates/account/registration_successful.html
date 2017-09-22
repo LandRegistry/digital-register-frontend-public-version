@@ -1,0 +1,22 @@
+{% extends "layouts/layout.html" %}
+
+{% block title %}Registration successful{% endblock %}
+
+{% block body %}
+
+  <h1 class="heading-large">Registration successful</h1>
+
+  <div class="grid-row">
+
+    <div class="column-two-thirds tablet-column-two-thirds">
+      {% if title_number %}
+        <p class="lede">You may now sign in.</p>
+        <a href="{{url_for('sign_in', title_number=title_number, search_term=search_term)}}" class="button">Sign in</a>
+      {% else %}
+        <p class="lede">You may now sign in.</p>
+        <a href="{{url_for('sign_in')}}" class="button">Sign in</a>
+      {% endif %}
+    </div>
+  </div>
+
+{% endblock %}

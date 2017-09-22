@@ -1,0 +1,95 @@
+@page {
+  size:210mm 297mm;
+  margin: 7mm;
+}
+
+.fpi-map-container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 300px;
+
+  @mixin styles {
+    max-width: none;
+  }
+
+  @media print, screen and (min-width: 701px) {
+    @include styles
+  }
+
+  .lte-ie8 & {
+    @include styles
+  }
+}
+
+.fpi-map-outer {
+  height: 0;
+  padding-bottom: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: relative;
+
+  @mixin styles {
+    position: absolute;
+  }
+
+  @media print, screen and (min-width: 701px) {
+    @include styles
+  }
+
+  .lte-ie8 & {
+    @include styles
+  }
+}
+
+.fpi-map-note {
+  @mixin styles {
+    position: absolute;
+    padding-top: 100%;
+  }
+
+  @media print, screen and (min-width: 701px) {
+    @include styles
+  }
+
+  .lte-ie8 & {
+    @include styles
+  }
+}
+
+.fpi-map-note--small {
+  font-size: 12px;
+}
+
+.fpi-map {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.island {
+  border: 2px solid #BFC1C3;  // Replace with $border-colour after pattern library refactor
+  padding: 15px; // $gutter
+}
+
+// Move into pattern library once we have migrated to the new version
+.link-button {
+  background: none;
+  appearance: none;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  cursor: pointer;
+  color: #005ea5; // $link-color
+
+  &:hover {
+    color: #2e8aca; // $link-hover-colour
+  }
+
+  &:focus {
+    background-color: #ffbf47; // $focus-colour
+    outline: 3px solid #ffbf47; // $focus-colour
+  }
+}

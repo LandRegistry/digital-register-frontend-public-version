@@ -1,0 +1,24 @@
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+
+    <div class="warning media text">
+      <div class="media-item">
+        <i class="icon icon-important">
+          <span class="visuallyhidden">Information</span>
+        </i>
+      </div>
+
+      <div class="media-body">
+        {% if messages|length > 1 %}
+          <ul class="spacing-top-flush">
+            {% for message in messages %}
+              <li>{{ message }}</li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          {{ messages|first }}
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+{% endwith %}

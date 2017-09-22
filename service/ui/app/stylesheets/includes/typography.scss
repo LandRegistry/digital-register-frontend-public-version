@@ -1,0 +1,19 @@
+.list-roman {
+  padding-left: 20px;
+
+  > li {
+    list-style-type: upper-roman;
+  }
+}
+
+.list-alpha {
+  padding-left: 20px;
+
+  > li {
+    list-style-type: lower-alpha;
+  }
+}
+
+.middle-align {
+  vertical-align: middle;
+}

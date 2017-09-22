@@ -1,0 +1,45 @@
+{% extends "layouts/layout.html" %}
+
+{% block title %}{% if retry_after <= minimum_wait %}Finding properties - please wait{% else %}Temporary searching limit reached{% endif %}{% endblock %}
+
+{% set minimum_wait = 5 %}
+{% set retry_after = [e.limit_headers['Retry-After']|int, minimum_wait]|max %}
+
+{% block head %}
+  {% if retry_after <= minimum_wait %}
+    <meta http-equiv="refresh" content="{{retry_after}}">
+  {% endif %}
+
+  {{ super() }}
+{% endblock %}
+
+{% block ga_pageview %}
+  {{ super() }}
+
+  ga('send', {
+    hitType: 'event',
+    eventCategory: 'RateLimit',
+    eventAction: '{{e.limit_exceeded}}',
+    eventLabel: 'Search'
+  })
+{% endblock %}
+
+{% block body %}
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      {% if retry_after > minimum_wait %}
+        <h1 class="heading-xlarge">Temporary searching limit reached</h1>
+        <p class="lede">We limit the number of searches to ensure fair use of information provided by Ordnance Survey</p>
+        <p>You can search again <span data-rate-limit-retry-seconds="{{retry_after + 1}}">in {{retry_after|duration}}</span></p>
+
+        <form action="{{request.path}}" method="get">
+          <input type="hidden" name="page" value="{{request.args.get('page', 1)}}">
+          <input type="submit" value="Search again" class="button" data-rate-limit-retry-action data-double-click-prevention>
+        </form>
+      {% else %}
+        <h1 class="heading-xlarge spacing-top-single"><img class="middle-align" src="/ui/app/images/ajax-loader.gif" alt=""> Finding properties</h1>
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,1848 @@
+{
+  "PT": {
+    "entry-number": "147",
+    "item-hash": "sha-256:237f7100bbbdcf670f0b0087a07350cd824007e230795acef6835883a68f9a37",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Portugal",
+    "country": "PT",
+    "citizen-names": "Portuguese",
+    "official-name": "The Portuguese Republic"
+  },
+  "PW": {
+    "entry-number": "140",
+    "item-hash": "sha-256:d2078aa1d7670b9b99fca56a88b0e53b5267271ead9aa9dbd95de0440644416b",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Palau",
+    "country": "PW",
+    "start-date": "1994-10-01",
+    "citizen-names": "Palauan",
+    "official-name": "The Republic of Palau"
+  },
+  "PY": {
+    "entry-number": "143",
+    "item-hash": "sha-256:ce57e3a16ba6645dac61bb4d997f13fbab3de1b0f1d0f592ac510ab94867ec7b",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Paraguay",
+    "country": "PY",
+    "citizen-names": "Paraguayan",
+    "official-name": "The Republic of Paraguay"
+  },
+  "QA": {
+    "entry-number": "148",
+    "item-hash": "sha-256:35759f269063ffedb40d97a1e61d0fba3a70bb005d459633e5da4155dd4ccfbb",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Qatar",
+    "country": "QA",
+    "citizen-names": "Qatari",
+    "official-name": "The State of Qatar"
+  },
+  "AD": {
+    "entry-number": "10",
+    "item-hash": "sha-256:14fcb5099f0eff4c40d5a85b0e3c2f1a04337dc69dace1fc5c64ec9758a19b13",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Andorra",
+    "country": "AD",
+    "citizen-names": "Andorran",
+    "official-name": "The Principality of Andorra"
+  },
+  "AE": {
+    "entry-number": "190",
+    "item-hash": "sha-256:d46c998e0013d1de0734132b26d99fdd638dccb8de4c4a88451af88579120844",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "United Arab Emirates",
+    "country": "AE",
+    "citizen-names": "Citizen of the United Arab Emirates",
+    "official-name": "The United Arab Emirates"
+  },
+  "AF": {
+    "entry-number": "7",
+    "item-hash": "sha-256:6bf7f01f268fa6d18e53eb7d5ebadb41c25c4aa2eedecfb7bc863e233ec99e24",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Afghanistan",
+    "country": "AF",
+    "citizen-names": "Afghan",
+    "official-name": "The Islamic Republic of Afghanistan"
+  },
+  "AG": {
+    "entry-number": "12",
+    "item-hash": "sha-256:d97b6f4b277e0af0d61456c75106a38cecace2f362d1bfa29e704a63c84e4328",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Antigua and Barbuda",
+    "country": "AG",
+    "start-date": "1981-11-01",
+    "citizen-names": "Citizen of Antigua and Barbuda",
+    "official-name": "Antigua and Barbuda"
+  },
+  "AL": {
+    "entry-number": "8",
+    "item-hash": "sha-256:9d04a7e04ac92ab809a7471e7142617bc30a4b2d2f30c1002520a4a1d216f2a5",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Albania",
+    "country": "AL",
+    "citizen-names": "Albanian",
+    "official-name": "The Republic of Albania"
+  },
+  "AM": {
+    "entry-number": "14",
+    "item-hash": "sha-256:47b2db84d1a0e3abc6bca332a3c40253f84225f181b37a312b0d3c14b32727d1",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Armenia",
+    "country": "AM",
+    "start-date": "1991-09-21",
+    "citizen-names": "Armenian",
+    "official-name": "The Republic of Armenia"
+  },
+  "AO": {
+    "entry-number": "11",
+    "item-hash": "sha-256:c66f7a4f655d41425d2aba07bc6204c1d764c3fd8cfba9b3f8ed25baae244427",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Angola",
+    "country": "AO",
+    "start-date": "1975-11-11",
+    "citizen-names": "Angolan",
+    "official-name": "The Republic of Angola"
+  },
+  "AR": {
+    "entry-number": "13",
+    "item-hash": "sha-256:ca880f33b29256578d0be532579837f08a7bdaf1b968adf6e63708ec2d782a53",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Argentina",
+    "country": "AR",
+    "citizen-names": "Argentine;Argentinian",
+    "official-name": "The Argentine Republic"
+  },
+  "AT": {
+    "entry-number": "16",
+    "item-hash": "sha-256:77e8694806852b806d9be797cbcb068ca4a2d7c9ed499daf8341d614686de624",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Austria",
+    "country": "AT",
+    "citizen-names": "Austrian",
+    "official-name": "The Republic of Austria"
+  },
+  "AU": {
+    "entry-number": "15",
+    "item-hash": "sha-256:a5917aaa595c7dcbade7138d92fc249848df6a9c2efc282e28fb540b3dc3d0bb",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Australia",
+    "country": "AU",
+    "citizen-names": "Australian",
+    "official-name": "The Commonwealth of Australia"
+  },
+  "AZ": {
+    "entry-number": "17",
+    "item-hash": "sha-256:be1bdd0de400a14cbd3142ab1c5ce4e06bb4deddeb13bffd4890058f04de651f",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Azerbaijan",
+    "country": "AZ",
+    "start-date": "1991-08-30",
+    "citizen-names": "Azerbaijani",
+    "official-name": "The Republic of Azerbaijan"
+  },
+  "RO": {
+    "entry-number": "149",
+    "item-hash": "sha-256:63bd38f65b44e0fd32785668ed4cda1b9375b802df08aa23aa5934bcf291df74",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Romania",
+    "country": "RO",
+    "citizen-names": "Romanian",
+    "official-name": "Romania"
+  },
+  "BA": {
+    "entry-number": "28",
+    "item-hash": "sha-256:fa02a4104dd3181cae2ef62397268f1d95d37150a15009ba61b54f84d61fb4b0",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Bosnia and Herzegovina",
+    "country": "BA",
+    "start-date": "1992-03-03",
+    "citizen-names": "Citizen of Bosnia and Herzegovina",
+    "official-name": "Bosnia and Herzegovina"
+  },
+  "BB": {
+    "entry-number": "21",
+    "item-hash": "sha-256:15203db1a0b4ea2685cda93fb8ca9a1adcdd41a63f8eef03365eba5332a2c3e3",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Barbados",
+    "country": "BB",
+    "citizen-names": "Barbadian",
+    "official-name": "Barbados"
+  },
+  "RS": {
+    "entry-number": "160",
+    "item-hash": "sha-256:236a801b10320d3c9c4d26bfafd765986f9ae07f1cc12959aa81cf8aed8af243",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Serbia",
+    "country": "RS",
+    "citizen-names": "Serbian",
+    "official-name": "The Republic of Serbia"
+  },
+  "BD": {
+    "entry-number": "20",
+    "item-hash": "sha-256:abad68e29c01ae14b24e828fa5b99bad6565800cd9591bf5cf32679013e726a8",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Bangladesh",
+    "country": "BD",
+    "citizen-names": "Bangladeshi",
+    "official-name": "The People's Republic of Bangladesh"
+  },
+  "BE": {
+    "entry-number": "23",
+    "item-hash": "sha-256:1924e51549dbc45de01cfb444b1ace3f20893fff184bdc9426eb0fdec1192bf6",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Belgium",
+    "country": "BE",
+    "citizen-names": "Belgian",
+    "official-name": "The Kingdom of Belgium"
+  },
+  "RU": {
+    "entry-number": "150",
+    "item-hash": "sha-256:84cca8cb3b2b7862ea6fc1502ec93e46319e2eca1742a3272dd6e02fca5a90bd",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Russia",
+    "country": "RU",
+    "start-date": "1991-12-25",
+    "citizen-names": "Russian",
+    "official-name": "The Russian Federation"
+  },
+  "BF": {
+    "entry-number": "33",
+    "item-hash": "sha-256:91af7bcc47b161b8948f743c265479234dfae4924f3211a72bcbde4250832bd9",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Burkina Faso",
+    "country": "BF",
+    "citizen-names": "Burkinabe;Burkinan",
+    "official-name": "Burkina Faso"
+  },
+  "BG": {
+    "entry-number": "32",
+    "item-hash": "sha-256:56f710e5a8d7eb6fffbeb819cfa901ae9af121b2f64bd6b91534bb7d09954e9f",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Bulgaria",
+    "country": "BG",
+    "citizen-names": "Bulgarian",
+    "official-name": "The Republic of Bulgaria"
+  },
+  "RW": {
+    "entry-number": "151",
+    "item-hash": "sha-256:28f3129e67f9090a61d044bf39411f5689c3eaa4249ea8324e7c56d269daa9b0",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Rwanda",
+    "country": "RW",
+    "citizen-names": "Rwandan",
+    "official-name": "The Republic of Rwanda"
+  },
+  "BH": {
+    "entry-number": "19",
+    "item-hash": "sha-256:dd4dd8658072865671172333a641e6d37e1d477baa3bf23e7a6b52328a6162c1",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Bahrain",
+    "country": "BH",
+    "citizen-names": "Bahraini",
+    "official-name": "The Kingdom of Bahrain"
+  },
+  "BI": {
+    "entry-number": "35",
+    "item-hash": "sha-256:50f7e2bf23b157a5d89ff0139fa453bd98bcfd2331dd98806ce52ef6d33b5a5c",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Burundi",
+    "country": "BI",
+    "citizen-names": "Citizen of Burundi",
+    "official-name": "The Republic of Burundi"
+  },
+  "BJ": {
+    "entry-number": "25",
+    "item-hash": "sha-256:1fa352d281dc7cce463a125454d841e5b6cd5bf0a3f57b4d59c6e48298e105fc",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Benin",
+    "country": "BJ",
+    "citizen-names": "Beninese",
+    "official-name": "The Republic of Benin"
+  },
+  "BN": {
+    "entry-number": "31",
+    "item-hash": "sha-256:86f3445909c019ec4635ea638a6c949c354dd027855f4929da775727c46cbf72",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Brunei",
+    "country": "BN",
+    "start-date": "1984-01-01",
+    "citizen-names": "Citizen of Brunei",
+    "official-name": "Brunei Darussalam"
+  },
+  "BO": {
+    "entry-number": "27",
+    "item-hash": "sha-256:058d5947158d724aac39bd3e069be83fb21856deb4e00ef1734c080169ff916d",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Bolivia",
+    "country": "BO",
+    "citizen-names": "Bolivian",
+    "official-name": "The Plurinational State of Bolivia"
+  },
+  "SA": {
+    "entry-number": "158",
+    "item-hash": "sha-256:7b2bbc9351ecfa03592952224ec189973c782986a3b6feaf3a6e372c3c94db54",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Saudi Arabia",
+    "country": "SA",
+    "citizen-names": "Saudi Arabian",
+    "official-name": "The Kingdom of Saudi Arabia"
+  },
+  "SB": {
+    "entry-number": "166",
+    "item-hash": "sha-256:5b078885397e7f4983a73cfe84c9adb2e4ae638fbfd214ccb4e53c045f498a82",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Solomon Islands",
+    "country": "SB",
+    "start-date": "1978-07-07",
+    "citizen-names": "Solomon Islander",
+    "official-name": "Solomon Islands"
+  },
+  "BR": {
+    "entry-number": "30",
+    "item-hash": "sha-256:5ad9666bf6362ff05bcff93c49138fa1010f9093139ad916deabc665e3c5001f",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Brazil",
+    "country": "BR",
+    "citizen-names": "Brazilian",
+    "official-name": "The Federative Republic of Brazil"
+  },
+  "SC": {
+    "entry-number": "161",
+    "item-hash": "sha-256:37a4ad905de5f203642321eda62dee875ad72453ea15a04b55b6e7f7f912dd19",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Seychelles",
+    "country": "SC",
+    "start-date": "1976-06-29",
+    "citizen-names": "Citizen of Seychelles",
+    "official-name": "The Republic of Seychelles"
+  },
+  "SD": {
+    "entry-number": "172",
+    "item-hash": "sha-256:cc524b28c9b6d210c19b8f53a91e8d166c9d2f9ee316b22dc1f27ed35da34564",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Sudan",
+    "country": "SD",
+    "citizen-names": "Sudanese",
+    "official-name": "The Republic of the Sudan"
+  },
+  "BS": {
+    "entry-number": "203",
+    "item-hash": "sha-256:a77f1e11270aab0c5bf315b2e7c268a7aff89713578020e1b4183c6df2b2c0e7",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "The Bahamas",
+    "country": "BS",
+    "citizen-names": "Bahamian",
+    "official-name": "The Commonwealth of The Bahamas"
+  },
+  "BT": {
+    "entry-number": "26",
+    "item-hash": "sha-256:51e5fef041cffbcb6cc6bbcaf292ada263d09b1c4e533cf96da8b1c0d24b1500",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Bhutan",
+    "country": "BT",
+    "citizen-names": "Bhutanese",
+    "official-name": "The Kingdom of Bhutan"
+  },
+  "SE": {
+    "entry-number": "175",
+    "item-hash": "sha-256:6a693202d812376dca679fca3d36f108653b8470556f7532177175e68efcc4b5",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Sweden",
+    "country": "SE",
+    "citizen-names": "Swede",
+    "official-name": "The Kingdom of Sweden"
+  },
+  "SG": {
+    "entry-number": "163",
+    "item-hash": "sha-256:3c8ee9ea8ba898a678cc10049a17f808a78e0d54af793363ae0201428c91b7d7",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Singapore",
+    "country": "SG",
+    "citizen-names": "Singaporean",
+    "official-name": "The Republic of Singapore"
+  },
+  "BW": {
+    "entry-number": "29",
+    "item-hash": "sha-256:608cd602c89522050e8235d2b145ddd1d1817c6c442bb6fec095ef292b8997d1",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Botswana",
+    "country": "BW",
+    "citizen-names": "Citizen of Botswana",
+    "official-name": "The Republic of Botswana"
+  },
+  "SI": {
+    "entry-number": "165",
+    "item-hash": "sha-256:3f3f84598f5715b91d06fa9755e43b52caf7b174e43a3499015cd56dd155d20b",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Slovenia",
+    "country": "SI",
+    "start-date": "1991-06-25",
+    "citizen-names": "Slovene",
+    "official-name": "The Republic of Slovenia"
+  },
+  "BY": {
+    "entry-number": "22",
+    "item-hash": "sha-256:4a84d2e46ab352b337f84e92dc593332fc6bfa994de698acb37adfd0113813c0",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Belarus",
+    "country": "BY",
+    "start-date": "1991-08-25",
+    "citizen-names": "Belarusian",
+    "official-name": "The Republic of Belarus"
+  },
+  "BZ": {
+    "entry-number": "24",
+    "item-hash": "sha-256:c63e4432bd5967cc660b740ef0e371372f1734db62f464b46a05070b9e97559b",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Belize",
+    "country": "BZ",
+    "start-date": "1981-09-21",
+    "citizen-names": "Citizen of Belize",
+    "official-name": "Belize"
+  },
+  "SK": {
+    "entry-number": "164",
+    "item-hash": "sha-256:92938c6db920eab9fdc4ccc0cf1ae113cd6d10d9be062b54ddf559e5d8000649",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Slovakia",
+    "country": "SK",
+    "start-date": "1993-01-01",
+    "citizen-names": "Slovak",
+    "official-name": "The Slovak Republic"
+  },
+  "SL": {
+    "entry-number": "162",
+    "item-hash": "sha-256:30a05659fd604b1b3409babfc5d98e683813c34e52c98f4c83dc566747a43a32",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Sierra Leone",
+    "country": "SL",
+    "citizen-names": "Sierra Leonean",
+    "official-name": "The Republic of Sierra Leone"
+  },
+  "SM": {
+    "entry-number": "156",
+    "item-hash": "sha-256:b9dd6114360f8ead867b7bc4b5e8c3c8aba891751510024f2db68c04c0a3a533",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "San Marino",
+    "country": "SM",
+    "citizen-names": "Citizen of San Marino",
+    "official-name": "The Republic of San Marino"
+  },
+  "SN": {
+    "entry-number": "159",
+    "item-hash": "sha-256:69011cfeece3b537c677278239e1953f7a548a452c95452cdd2721fe9f66d658",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Senegal",
+    "country": "SN",
+    "citizen-names": "Senegalese",
+    "official-name": "The Republic of Senegal"
+  },
+  "SO": {
+    "entry-number": "167",
+    "item-hash": "sha-256:c4a7eaf6dc782bcd64e25120d05708ba71e29a7680f5e5a5406b6dae815f5edd",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Somalia",
+    "country": "SO",
+    "citizen-names": "Somali",
+    "official-name": "Federal Republic of Somalia"
+  },
+  "CA": {
+    "entry-number": "38",
+    "item-hash": "sha-256:27c8a0f5af23762e30b11ce5f743abfb443a5c74e5d7c9050e32411a96e6b905",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Canada",
+    "country": "CA",
+    "citizen-names": "Canadian",
+    "official-name": "Canada"
+  },
+  "SR": {
+    "entry-number": "173",
+    "item-hash": "sha-256:54444b35fc2d463178e371aea46ce67f4b08c90e0636b8580c911b34c9f1125a",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Suriname",
+    "country": "SR",
+    "start-date": "1975-11-25",
+    "citizen-names": "Surinamer",
+    "official-name": "The Republic of Suriname"
+  },
+  "SS": {
+    "entry-number": "169",
+    "item-hash": "sha-256:6524bf4347dd781b121c1e28fb36ced1568614918c7aff5b4d92da890c2ea049",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "South Sudan",
+    "country": "SS",
+    "start-date": "2011-07-09",
+    "citizen-names": "South Sudanese",
+    "official-name": "The Republic of South Sudan"
+  },
+  "CD": {
+    "entry-number": "47",
+    "item-hash": "sha-256:dea4971f37c8b1d20556b05824cf39e60389c9778cabe6a81ff5af762596427d",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Congo (Democratic Republic)",
+    "country": "CD",
+    "citizen-names": "Citizen of The Democratic Republic of the Congo",
+    "official-name": "The Democratic Republic of the Congo"
+  },
+  "ST": {
+    "entry-number": "157",
+    "item-hash": "sha-256:5b140fa3611c6f1faa56fed779af7da604e2ade00f0da116f9e536bc2a7a3c17",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Sao Tome and Principe",
+    "country": "ST",
+    "start-date": "1975-07-12",
+    "citizen-names": "Citizen of Sao Tome and Principe",
+    "official-name": "The Democratic Republic of Sao Tome and Principe"
+  },
+  "SU": {
+    "entry-number": "1",
+    "item-hash": "sha-256:e94c4a9ab00d951dadde848ee2c9fe51628b22ff2e0a88bff4cca6e4e6086d7a",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "USSR",
+    "country": "SU",
+    "end-date": "1991-12-25",
+    "citizen-names": "Soviet citizen",
+    "official-name": "Union of Soviet Socialist Republics"
+  },
+  "CF": {
+    "entry-number": "40",
+    "item-hash": "sha-256:17d940731b9abb32f195f1c8d4e2fb2172777fa1ae3074f8f7277c3982036f63",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Central African Republic",
+    "country": "CF",
+    "citizen-names": "Citizen of the Central African Republic",
+    "official-name": "The Central African Republic"
+  },
+  "SV": {
+    "entry-number": "60",
+    "item-hash": "sha-256:e1e6dd1783266b91deaee0adf59b32945466e5b57eb1abe18bbab91c35f562f0",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "El Salvador",
+    "country": "SV",
+    "citizen-names": "Salvadorean",
+    "official-name": "The Republic of El Salvador"
+  },
+  "CG": {
+    "entry-number": "46",
+    "item-hash": "sha-256:9122cdf8b3e283e6d3d2240558ef6ef2e57cb8617b4624e3bcb6b9ca65e2886f",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Congo",
+    "country": "CG",
+    "citizen-names": "Citizen of the Republic of the Congo",
+    "official-name": "The Republic of the Congo"
+  },
+  "CH": {
+    "entry-number": "176",
+    "item-hash": "sha-256:8aa9b6292caa7ebbe1b5afe12fc2b307ed32e4ab822ba2c01a0ef10f8450baef",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Switzerland",
+    "country": "CH",
+    "citizen-names": "Swiss",
+    "official-name": "The Swiss Confederation"
+  },
+  "CI": {
+    "entry-number": "90",
+    "item-hash": "sha-256:7c16257bd45b4716914010b39dd40e5a6b985b8928d7b8bb0fe3005d2f2b0fec",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Ivory Coast",
+    "country": "CI",
+    "citizen-names": "Citizen of the Ivory Coast",
+    "official-name": "The Republic of Cote D'Ivoire"
+  },
+  "SY": {
+    "entry-number": "177",
+    "item-hash": "sha-256:03b3138d82567cf7c92542df724ce5deb38a9bf3ad65cc59f77023069cf65ef5",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Syria",
+    "country": "SY",
+    "citizen-names": "Syrian",
+    "official-name": "The Syrian Arab Republic"
+  },
+  "SZ": {
+    "entry-number": "174",
+    "item-hash": "sha-256:d854e31c09e4487a8e607a141de81d2bc34b1ca9f6d60d505888801ee5fb3510",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Swaziland",
+    "country": "SZ",
+    "citizen-names": "Swazi",
+    "official-name": "The Kingdom of Swaziland"
+  },
+  "CL": {
+    "entry-number": "42",
+    "item-hash": "sha-256:20876a6e92af5c05fe7a11ee0111b1cf04ff5c158abe1f7334755a766a71c180",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Chile",
+    "country": "CL",
+    "citizen-names": "Chilean",
+    "official-name": "The Republic of Chile"
+  },
+  "CM": {
+    "entry-number": "37",
+    "item-hash": "sha-256:2de017cea16f6444dcf5e63459385db222c9211a0353ee62da56d1771339842f",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Cameroon",
+    "country": "CM",
+    "citizen-names": "Cameroonian",
+    "official-name": "The Republic of Cameroon"
+  },
+  "CN": {
+    "entry-number": "43",
+    "item-hash": "sha-256:bc808ed6f3eb9aba16a4624de0f3e03404d3c35421382bf529dd9a503f341856",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "China",
+    "country": "CN",
+    "citizen-names": "Chinese",
+    "official-name": "The People's Republic of China"
+  },
+  "CO": {
+    "entry-number": "44",
+    "item-hash": "sha-256:c8b0ab444b62407caf3d5ae2eb99eb42e25cb9b4487c978dbdb49edb939e45c5",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Colombia",
+    "country": "CO",
+    "citizen-names": "Colombian",
+    "official-name": "The Republic of Colombia"
+  },
+  "CR": {
+    "entry-number": "48",
+    "item-hash": "sha-256:9f1322807b4dad6d120eeacacd812b90b9ab3f41feab39be45fcc1725d2c94b9",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Costa Rica",
+    "country": "CR",
+    "citizen-names": "Costa Rican",
+    "official-name": "The Republic of Costa Rica"
+  },
+  "CS": {
+    "entry-number": "5",
+    "item-hash": "sha-256:0031f311f87260b07f4c7b25748cfdd8c2d2efa3c15fc98c33dd8563fafb6476",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Czechoslovakia",
+    "country": "CS",
+    "end-date": "1992-12-31",
+    "citizen-names": "Czechoslovak",
+    "official-name": "Czechoslovak Republic"
+  },
+  "TD": {
+    "entry-number": "41",
+    "item-hash": "sha-256:d9289603bc37049b30cc8b169a59780d93ac9bf4b838d5c4bf3ffb6d4b14354e",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Chad",
+    "country": "TD",
+    "citizen-names": "Chadian",
+    "official-name": "The Republic of Chad"
+  },
+  "CU": {
+    "entry-number": "50",
+    "item-hash": "sha-256:0e05f13f484f53fbafc58b7d935a8640ebecbac26b1962dcd7ef05f8d8fc995a",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Cuba",
+    "country": "CU",
+    "citizen-names": "Cuban",
+    "official-name": "The Republic of Cuba"
+  },
+  "CV": {
+    "entry-number": "39",
+    "item-hash": "sha-256:afe914d82eafd2a8c92d51be7b9900b6602caf51941cdfd0c4b5197f9682a4f5",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Cape Verde",
+    "country": "CV",
+    "start-date": "1975-07-05",
+    "citizen-names": "Cape Verdean",
+    "official-name": "The Republic of Cabo Verde"
+  },
+  "TG": {
+    "entry-number": "181",
+    "item-hash": "sha-256:ecadf144a77778b83e5c47718a8e383e0ec9d1e1652b3e1f0825f64611b9dfbf",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Togo",
+    "country": "TG",
+    "citizen-names": "Togolese",
+    "official-name": "The Togolese Republic"
+  },
+  "TH": {
+    "entry-number": "180",
+    "item-hash": "sha-256:d2573565cb9155bf24ac971c578867c5b10610b7dd558211f9df30244d68216f",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Thailand",
+    "country": "TH",
+    "citizen-names": "Thai",
+    "official-name": "The Kingdom of Thailand"
+  },
+  "CY": {
+    "entry-number": "51",
+    "item-hash": "sha-256:c0b0738976093ce8711163068796c29deec46412c056ec948697be35bd1c30f1",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Cyprus",
+    "country": "CY",
+    "citizen-names": "Cypriot",
+    "official-name": "The Republic of Cyprus"
+  },
+  "TJ": {
+    "entry-number": "178",
+    "item-hash": "sha-256:03d5a82e573cbaa7b95c71ba5b078f88ffe99b3e4b97952f4fa10e8fe6aeab17",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Tajikistan",
+    "country": "TJ",
+    "start-date": "1991-09-09",
+    "citizen-names": "Tajik",
+    "official-name": "The Republic of Tajikistan"
+  },
+  "CZ": {
+    "entry-number": "52",
+    "item-hash": "sha-256:c45bd0b4785680534e07c627a5eea0d2f065f0a4184a02ba2c1e643672c3f2ed",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Czech Republic",
+    "country": "CZ",
+    "start-date": "1993-01-01",
+    "citizen-names": "Czech",
+    "official-name": "The Czech Republic"
+  },
+  "TL": {
+    "entry-number": "57",
+    "item-hash": "sha-256:faba1d16a599882f6c50f588bd87321e3629c2a87d974579efb65fb84355eed0",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "East Timor",
+    "country": "TL",
+    "citizen-names": "East Timorese",
+    "official-name": "The Democratic Republic of Timor-Leste"
+  },
+  "TM": {
+    "entry-number": "186",
+    "item-hash": "sha-256:15d6ad4b828394e5db3b24cf15277eed51f6ccbe936d71fd583e071159370e16",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Turkmenistan",
+    "country": "TM",
+    "start-date": "1991-10-27",
+    "citizen-names": "Turkmen",
+    "official-name": "Turkmenistan"
+  },
+  "TN": {
+    "entry-number": "184",
+    "item-hash": "sha-256:e6980aee1234069dcb6188a681696ddda7c33fb3562d69ea0be0d53f2906abc4",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Tunisia",
+    "country": "TN",
+    "citizen-names": "Tunisian",
+    "official-name": "The Tunisian Republic"
+  },
+  "TO": {
+    "entry-number": "182",
+    "item-hash": "sha-256:60bf05eff5a3902a0a770fb844e25c918e0b016ea92a1d017b9dd8b944a16388",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Tonga",
+    "country": "TO",
+    "citizen-names": "Tongan",
+    "official-name": "The Kingdom of Tonga"
+  },
+  "TR": {
+    "entry-number": "185",
+    "item-hash": "sha-256:547035e601ee8d0277fc11ea87fd4cf5e200c7a8d7c1d91591bb718cf410f846",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Turkey",
+    "country": "TR",
+    "citizen-names": "Turk",
+    "official-name": "The Republic of Turkey"
+  },
+  "DD": {
+    "entry-number": "3",
+    "item-hash": "sha-256:e1357671d0da24668952373d0cdf9f7659a1b155e45c8fb3c2f24331e46edc26",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "East Germany",
+    "country": "DD",
+    "end-date": "1990-10-02",
+    "citizen-names": "East German",
+    "official-name": "Germany Democratic Republic"
+  },
+  "TT": {
+    "entry-number": "183",
+    "item-hash": "sha-256:6f630356cbaa6e96ed592b26bb6ba707826fd95e1500875ca4010b1067666221",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Trinidad and Tobago",
+    "country": "TT",
+    "citizen-names": "Trinidad and Tobago citizen",
+    "official-name": "The Republic of Trinidad and Tobago"
+  },
+  "DE": {
+    "entry-number": "71",
+    "item-hash": "sha-256:747dbb718cb9f9799852e7bf698c499e6b83fb1a46ec06dbd6087f35c1e955cc",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Germany",
+    "country": "DE",
+    "start-date": "1990-10-03",
+    "citizen-names": "German",
+    "official-name": "The Federal Republic of Germany"
+  },
+  "TV": {
+    "entry-number": "187",
+    "item-hash": "sha-256:f18ade1035a53da478ad84ca73209128fdecc5b4234bde9e37bdbf5e60670dd7",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Tuvalu",
+    "country": "TV",
+    "start-date": "1978-10-01",
+    "citizen-names": "Tuvaluan",
+    "official-name": "Tuvalu"
+  },
+  "DJ": {
+    "entry-number": "54",
+    "item-hash": "sha-256:fbf149fca3315b50710077b017cdf3b569cc41f2a75e787b9dfb4ac48e0f31cf",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Djibouti",
+    "country": "DJ",
+    "start-date": "1977-06-27",
+    "citizen-names": "Djiboutian",
+    "official-name": "The Republic of Djibouti"
+  },
+  "TZ": {
+    "entry-number": "179",
+    "item-hash": "sha-256:e8340bff2deab287068524d6fb5feec1003365d25188eed72a8f3738bfa2ec7f",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Tanzania",
+    "country": "TZ",
+    "citizen-names": "Tanzanian",
+    "official-name": "The United Republic of Tanzania"
+  },
+  "DK": {
+    "entry-number": "53",
+    "item-hash": "sha-256:e1b54fbe5885d14069c125cb39ee489389e3028fd69b9b0e419f2ec688aad882",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Denmark",
+    "country": "DK",
+    "citizen-names": "Dane",
+    "official-name": "The Kingdom of Denmark"
+  },
+  "DM": {
+    "entry-number": "55",
+    "item-hash": "sha-256:ca92ee5217741a2ca6051d25367975dd934854f81dfa6e28dc91f6ec1bfabab4",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Dominica",
+    "country": "DM",
+    "start-date": "1978-11-03",
+    "citizen-names": "Dominican",
+    "official-name": "The Commonwealth of Dominica"
+  },
+  "DO": {
+    "entry-number": "56",
+    "item-hash": "sha-256:a40b482e8e2966406769b5fdd5389da40454209c9d6a7dfcd18ecbea154f3412",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Dominican Republic",
+    "country": "DO",
+    "citizen-names": "Citizen of the Dominican Republic",
+    "official-name": "The Dominican Republic"
+  },
+  "UA": {
+    "entry-number": "189",
+    "item-hash": "sha-256:3413d164924f47d3b6b8618a5de30a53b8b8b692bded4f16203090c0808b1e99",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Ukraine",
+    "country": "UA",
+    "start-date": "1991-08-24",
+    "citizen-names": "Ukrainian",
+    "official-name": "Ukraine"
+  },
+  "UG": {
+    "entry-number": "188",
+    "item-hash": "sha-256:c799ac9946bed4885c3e57abce00bbc4700ea9a95b1f65c9fdb88533aa64d47b",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Uganda",
+    "country": "UG",
+    "citizen-names": "Ugandan",
+    "official-name": "The Republic of Uganda"
+  },
+  "DZ": {
+    "entry-number": "9",
+    "item-hash": "sha-256:3548cdf528e450626113d44cdd4ac3a19ff992313fe814899c3198d4e0baeff9",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Algeria",
+    "country": "DZ",
+    "citizen-names": "Algerian",
+    "official-name": "The People's Democratic Republic of Algeria"
+  },
+  "EC": {
+    "entry-number": "58",
+    "item-hash": "sha-256:80442f4556dbf969424a566ecacf075dc09e5c8a3807d252a12c89f4dbb4769b",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Ecuador",
+    "country": "EC",
+    "citizen-names": "Ecuadorean",
+    "official-name": "The Republic of Ecuador"
+  },
+  "US": {
+    "entry-number": "191",
+    "item-hash": "sha-256:0abbabb7b2c3259dc326a23cf21ef2ed1b39b1d70973c64b293ffbeff351a3fe",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "United States",
+    "country": "US",
+    "citizen-names": "United States citizen",
+    "official-name": "The United States of America"
+  },
+  "EE": {
+    "entry-number": "63",
+    "item-hash": "sha-256:73c5327e464414b8a6a87cbe3f736c7a001452abe87bb6d3ec8d4f221a4d25c6",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Estonia",
+    "country": "EE",
+    "start-date": "1991-08-20",
+    "citizen-names": "Estonian",
+    "official-name": "The Republic of Estonia"
+  },
+  "EG": {
+    "entry-number": "59",
+    "item-hash": "sha-256:be5f4584e3ee1422646a1bd179fc8ea7936a728f0a88d3becc52b83d3fa5c209",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Egypt",
+    "country": "EG",
+    "citizen-names": "Egyptian",
+    "official-name": "The Arab Republic of Egypt"
+  },
+  "UY": {
+    "entry-number": "192",
+    "item-hash": "sha-256:bf953faff6c89f0085e220605bbbb8f5ad12d8c53bcc320237b20f554db78eab",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Uruguay",
+    "country": "UY",
+    "citizen-names": "Uruguayan",
+    "official-name": "The Oriental Republic of Uruguay"
+  },
+  "UZ": {
+    "entry-number": "193",
+    "item-hash": "sha-256:6d37b260df22e583623a29b06f75957661f3baea526964990b8e97beac8a0a35",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Uzbekistan",
+    "country": "UZ",
+    "start-date": "1991-09-01",
+    "citizen-names": "Uzbek",
+    "official-name": "The Republic of Uzbekistan"
+  },
+  "VA": {
+    "entry-number": "204",
+    "item-hash": "sha-256:466d194d5100532edd115e3f0035967b09bc7b7f5fc444166df6f4a5f7cb9127",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Vatican City",
+    "country": "VA",
+    "citizen-names": "Vatican citizen",
+    "official-name": "Vatican City State"
+  },
+  "ER": {
+    "entry-number": "62",
+    "item-hash": "sha-256:0d62a0cca252b73a826e1db642cdde4a89adf8747c3ecf79e5a34cd1bb94792a",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Eritrea",
+    "country": "ER",
+    "start-date": "1993-05-24",
+    "citizen-names": "Eritrean",
+    "official-name": "The State of Eritrea"
+  },
+  "VC": {
+    "entry-number": "154",
+    "item-hash": "sha-256:4f741c4cfd4c81ad76f18601977c145138630219f92dd2570fb0495157a72554",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "St Vincent",
+    "country": "VC",
+    "start-date": "1979-10-27",
+    "citizen-names": "Vincentian",
+    "official-name": "Saint Vincent and the Grenadines"
+  },
+  "ES": {
+    "entry-number": "170",
+    "item-hash": "sha-256:368f4923627e33fe4eef428f747fa0813a64eb43324bfc1aacb16a40dfa64f19",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Spain",
+    "country": "ES",
+    "citizen-names": "Spaniard;Spanish citizen",
+    "official-name": "The Kingdom of Spain"
+  },
+  "ET": {
+    "entry-number": "64",
+    "item-hash": "sha-256:a1940769be9793c6904cd01dc9297f61aa3f49b99007bff734c30269e90b7046",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Ethiopia",
+    "country": "ET",
+    "citizen-names": "Ethiopian",
+    "official-name": "The Federal Democratic Republic of Ethiopia"
+  },
+  "VE": {
+    "entry-number": "196",
+    "item-hash": "sha-256:50649b40f1bb4ae51431aec9be3f57cd2dd4a6f642f3471d3940bb2669292ed8",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Venezuela",
+    "country": "VE",
+    "citizen-names": "Venezuelan",
+    "official-name": "The Bolivarian Republic of Venezuela"
+  },
+  "VN": {
+    "entry-number": "197",
+    "item-hash": "sha-256:15e0d6355b2e1bc664a719470a3061823b748b83abd54c3acc37eadcecd77511",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Vietnam",
+    "country": "VN",
+    "citizen-names": "Vietnamese",
+    "official-name": "The Socialist Republic of Vietnam"
+  },
+  "VU": {
+    "entry-number": "194",
+    "item-hash": "sha-256:619ad0bf5aa6c8125569d89656e01cb70cf16cc489c048dfbd7de536fe0eeb67",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Vanuatu",
+    "country": "VU",
+    "start-date": "1980-07-30",
+    "citizen-names": "Citizen of Vanuatu",
+    "official-name": "The Republic of Vanuatu"
+  },
+  "FI": {
+    "entry-number": "66",
+    "item-hash": "sha-256:df2c57df1a3fce1cdd2b55918e74dcd2cc7e11eec07a619b07fc0a90269450ee",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Finland",
+    "country": "FI",
+    "citizen-names": "Finn",
+    "official-name": "The Republic of Finland"
+  },
+  "FJ": {
+    "entry-number": "65",
+    "item-hash": "sha-256:dfd316190c8a79880bde587da94d3f0b8eeeb752626a0a64697f2288f1ee4e1f",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Fiji",
+    "country": "FJ",
+    "citizen-names": "Citizen of Fiji",
+    "official-name": "The Republic of Fiji"
+  },
+  "FM": {
+    "entry-number": "122",
+    "item-hash": "sha-256:37106c73c01016740d6bf1e85e80824e9f3520c417df843f8f8c5920a07be322",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Micronesia",
+    "country": "FM",
+    "start-date": "1986-11-03",
+    "citizen-names": "Micronesian",
+    "official-name": "The Federated States of Micronesia"
+  },
+  "FR": {
+    "entry-number": "67",
+    "item-hash": "sha-256:e583abf7519bb6c92bbdf9ca90d2891add60a4b34b665ed83a86650a98b54c1c",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "France",
+    "country": "FR",
+    "citizen-names": "French citizen;Frenchman;Frenchwoman",
+    "official-name": "The French Republic"
+  },
+  "GA": {
+    "entry-number": "68",
+    "item-hash": "sha-256:1f133cb20145534e818734028da0d9fcd823f1ee199b2ffeb7f277c0db25e2a0",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Gabon",
+    "country": "GA",
+    "citizen-names": "Gabonese",
+    "official-name": "The Gabonese Republic"
+  },
+  "GB": {
+    "entry-number": "6",
+    "item-hash": "sha-256:6b18693874513ba13da54d61aafa7cad0c8f5573f3431d6f1c04b07ddb27d6bb",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "United Kingdom",
+    "country": "GB",
+    "citizen-names": "Briton;British citizen",
+    "official-name": "The United Kingdom of Great Britain and Northern Ireland"
+  },
+  "WS": {
+    "entry-number": "155",
+    "item-hash": "sha-256:bef4df153a794ff36ce8eb113c18360dc754af1a696058999b71376ece692237",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Samoa",
+    "country": "WS",
+    "citizen-names": "Samoan",
+    "official-name": "The Independent State of Samoa"
+  },
+  "GD": {
+    "entry-number": "74",
+    "item-hash": "sha-256:23ee932e81d9be1b7bc52be0644f810a5c526591df791d64e3b1464bc2404729",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Grenada",
+    "country": "GD",
+    "start-date": "1974-02-07",
+    "citizen-names": "Grenadian",
+    "official-name": "Grenada"
+  },
+  "GE": {
+    "entry-number": "70",
+    "item-hash": "sha-256:e057a6d45ba312f55cdd31d8fcad5a79f344d0d8833a34c416a5859f67c30e5c",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Georgia",
+    "country": "GE",
+    "start-date": "1991-04-09",
+    "citizen-names": "Georgian",
+    "official-name": "Georgia"
+  },
+  "GH": {
+    "entry-number": "72",
+    "item-hash": "sha-256:dc1d12943ea264de937468b254286e5ebd8acd316e21bf667076ebdb8c111bd1",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Ghana",
+    "country": "GH",
+    "citizen-names": "Ghanaian",
+    "official-name": "The Republic of Ghana"
+  },
+  "GM": {
+    "entry-number": "202",
+    "item-hash": "sha-256:dac66e05ee41707ff9115ed72705eaf8c2e0171285405bea9d859903e8f7ee40",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "The Gambia",
+    "country": "GM",
+    "citizen-names": "Gambian",
+    "official-name": "The Islamic Republic of The Gambia"
+  },
+  "GN": {
+    "entry-number": "76",
+    "item-hash": "sha-256:21eccd06c2c2d23e3f3cfdd3be61ab6cfa08b15d4a0a7188ea4bb25c28935869",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Guinea",
+    "country": "GN",
+    "citizen-names": "Guinean",
+    "official-name": "The Republic of Guinea"
+  },
+  "GQ": {
+    "entry-number": "61",
+    "item-hash": "sha-256:d8f801a489b33a26c7457f9ad9eb49f6a3973f6be2fbfe3bbb6b13e3c7a0b813",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Equatorial Guinea",
+    "country": "GQ",
+    "citizen-names": "Equatorial Guinean",
+    "official-name": "The Republic of Equatorial Guinea"
+  },
+  "GR": {
+    "entry-number": "73",
+    "item-hash": "sha-256:85bf72046e8b6935b2aee45ef4a13a170bb819956c10de92277611dfd196e202",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Greece",
+    "country": "GR",
+    "citizen-names": "Greek",
+    "official-name": "The Hellenic Republic"
+  },
+  "GT": {
+    "entry-number": "75",
+    "item-hash": "sha-256:6b9bbb2d3409c1f2751ae36c22e84c1e954fdc2a1b2cb6ecf2635260048a3167",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Guatemala",
+    "country": "GT",
+    "citizen-names": "Guatemalan",
+    "official-name": "The Republic of Guatemala"
+  },
+  "GW": {
+    "entry-number": "77",
+    "item-hash": "sha-256:d0e833cb483fe5bcbbd2484794326fd201b2dc83c9b48c3496aff56478abf57c",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Guinea-Bissau",
+    "country": "GW",
+    "citizen-names": "Citizen of Guinea-Bissau",
+    "official-name": "The Republic of Guinea-Bissau"
+  },
+  "GY": {
+    "entry-number": "78",
+    "item-hash": "sha-256:36ee7af0d204735abf3d6bebbf2e80fb930bd5db34f4c9471d1f3c231e133157",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Guyana",
+    "country": "GY",
+    "citizen-names": "Guyanese",
+    "official-name": "The Co-operative Republic of Guyana"
+  },
+  "XK": {
+    "entry-number": "99",
+    "item-hash": "sha-256:fb6dbf64942d56e0f9706693334fabb8fd4cfacaf796ee01522146e0d608ff54",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Kosovo",
+    "country": "XK",
+    "citizen-names": "Kosovan",
+    "official-name": "The Republic of Kosovo"
+  },
+  "HN": {
+    "entry-number": "80",
+    "item-hash": "sha-256:1b1c87ceaa3a398aad831d17747ba9ad6c6dbe2146f4b3c15d48af8a8ae45946",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Honduras",
+    "country": "HN",
+    "citizen-names": "Honduran",
+    "official-name": "The Republic of Honduras"
+  },
+  "HR": {
+    "entry-number": "49",
+    "item-hash": "sha-256:208e2540acd0d6209a6ab88e9b554cfbed2a226580f0d4d452a13389f79fc9f7",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Croatia",
+    "country": "HR",
+    "start-date": "1991-06-25",
+    "citizen-names": "Croatian",
+    "official-name": "The Republic of Croatia"
+  },
+  "HT": {
+    "entry-number": "79",
+    "item-hash": "sha-256:f9e92c07726ac713f603f9c8ccd97750977c82b57f970f4fe42cc42d8f35df6a",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Haiti",
+    "country": "HT",
+    "citizen-names": "Haitian",
+    "official-name": "The Republic of Haiti"
+  },
+  "YE": {
+    "entry-number": "198",
+    "item-hash": "sha-256:3fce9c67e4581d895712a6ef1e7f3020f34bf80baad04413e25d8677b972b1e4",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Yemen",
+    "country": "YE",
+    "start-date": "1990-05-22",
+    "citizen-names": "Yemeni",
+    "official-name": "The Republic of Yemen"
+  },
+  "HU": {
+    "entry-number": "81",
+    "item-hash": "sha-256:c413c7c33f93db2ced0a16a23ee7ace9525b74d5e2f3f31ef38b820c6e4a33c1",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Hungary",
+    "country": "HU",
+    "citizen-names": "Hungarian",
+    "official-name": "Hungary"
+  },
+  "ID": {
+    "entry-number": "84",
+    "item-hash": "sha-256:9879968660823c6f5566ca91cac4f161b2e94e8f9497958ddd044d66abb844af",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Indonesia",
+    "country": "ID",
+    "citizen-names": "Indonesian",
+    "official-name": "The Republic of Indonesia"
+  },
+  "YU": {
+    "entry-number": "4",
+    "item-hash": "sha-256:a074752a77011b18447401652029a9129c53b4ee35e1d99e6dec8b42ff4a0103",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Yugoslavia",
+    "country": "YU",
+    "end-date": "1992-04-28",
+    "citizen-names": "Yugoslavian",
+    "official-name": "Socialist Federal Republic of Yugoslavia"
+  },
+  "IE": {
+    "entry-number": "87",
+    "item-hash": "sha-256:aecb4ee6a7a4e49d1f968f02a11550dc8117382b2064dff7c0454c66d44e86f6",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Ireland",
+    "country": "IE",
+    "citizen-names": "Citizen of Ireland;Irish citizen",
+    "official-name": "Ireland"
+  },
+  "IL": {
+    "entry-number": "88",
+    "item-hash": "sha-256:03fd1378efb674662cc302e068078de72e6fd74489ffba19d8f474b6e6c1bd3c",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Israel",
+    "country": "IL",
+    "citizen-names": "Israeli",
+    "official-name": "The State of Israel"
+  },
+  "IN": {
+    "entry-number": "83",
+    "item-hash": "sha-256:ee78f485f8ad1a169745366da4057c8fc0102e9461b5c1f0d12e1e381387217e",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "India",
+    "country": "IN",
+    "citizen-names": "Indian",
+    "official-name": "The Republic of India"
+  },
+  "ZA": {
+    "entry-number": "168",
+    "item-hash": "sha-256:0577dbad39a261bf7978fad0ea17bf67858817ecc7047ba7edf1f28ca02b46b4",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "South Africa",
+    "country": "ZA",
+    "citizen-names": "South African",
+    "official-name": "The Republic of South Africa"
+  },
+  "IQ": {
+    "entry-number": "86",
+    "item-hash": "sha-256:4a92f2fe43dcb63ab3b66e3f4f9ce328bbc61f020ee0ecece4e3da40172cabe0",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Iraq",
+    "country": "IQ",
+    "citizen-names": "Iraqi",
+    "official-name": "The Republic of Iraq"
+  },
+  "IR": {
+    "entry-number": "85",
+    "item-hash": "sha-256:ecd8f9738381675d76ed85a3df8afa7e07f7fdcaba372890aa4aa159cd6ceca2",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Iran",
+    "country": "IR",
+    "citizen-names": "Iranian",
+    "official-name": "The Islamic Republic of Iran"
+  },
+  "IS": {
+    "entry-number": "82",
+    "item-hash": "sha-256:8600cf69794d9854f8dcd7e51fbcdf8f31678fba12f1c8185fb61211be0628e9",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Iceland",
+    "country": "IS",
+    "citizen-names": "Icelander",
+    "official-name": "The Republic of Iceland"
+  },
+  "IT": {
+    "entry-number": "89",
+    "item-hash": "sha-256:fb70bc281d1b2a73880c2e0d86f8253db0a1397ddca6258e9253921264ca34bc",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Italy",
+    "country": "IT",
+    "citizen-names": "Italian",
+    "official-name": "The Italian Republic"
+  },
+  "ZM": {
+    "entry-number": "199",
+    "item-hash": "sha-256:4dbf7919be59e1477ef719637d335666f5d54e272f6440abeae3519a45031433",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Zambia",
+    "country": "ZM",
+    "citizen-names": "Zambian",
+    "official-name": "The Republic of Zambia"
+  },
+  "ZW": {
+    "entry-number": "200",
+    "item-hash": "sha-256:d42acdfd107649a25563ca1eb9af0e92b034951c63983c431e77400daeefd2c8",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Zimbabwe",
+    "country": "ZW",
+    "start-date": "1980-04-18",
+    "citizen-names": "Zimbabwean",
+    "official-name": "The Republic of Zimbabwe"
+  },
+  "JM": {
+    "entry-number": "91",
+    "item-hash": "sha-256:13e5cb274e904817afada4563a56509461535c8aff15502a0b7efad226357fc5",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Jamaica",
+    "country": "JM",
+    "citizen-names": "Jamaican",
+    "official-name": "Jamaica"
+  },
+  "JO": {
+    "entry-number": "93",
+    "item-hash": "sha-256:6bff7775498dfa882f1911170fe467f8f64619dd1cab41e1b31947719a762574",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Jordan",
+    "country": "JO",
+    "citizen-names": "Jordanian",
+    "official-name": "The Hashemite Kingdom of Jordan"
+  },
+  "JP": {
+    "entry-number": "92",
+    "item-hash": "sha-256:3a38ed71e5de0c0ff8c973f22b3965308b6567096d0952c476f1a1484e4bf62a",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Japan",
+    "country": "JP",
+    "citizen-names": "Japanese",
+    "official-name": "Japan"
+  },
+  "KE": {
+    "entry-number": "95",
+    "item-hash": "sha-256:a47f121bcb7e4c7279e8d566ef62ef21802962f68fc87cdde9cb3e054d96ca6f",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Kenya",
+    "country": "KE",
+    "citizen-names": "Kenyan",
+    "official-name": "The Republic of Kenya"
+  },
+  "KG": {
+    "entry-number": "101",
+    "item-hash": "sha-256:8b748c574bf975990e47e69df040b47126d2a0a3895b31dce73988fba2ba27d8",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Kyrgyzstan",
+    "country": "KG",
+    "start-date": "1991-08-31",
+    "citizen-names": "Kyrgyz",
+    "official-name": "The Kyrgyz Republic"
+  },
+  "KH": {
+    "entry-number": "36",
+    "item-hash": "sha-256:ce4f468616501c8067649db804e60cb2f177f5d1ab72b371fcd3d8498df7adcb",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Cambodia",
+    "country": "KH",
+    "citizen-names": "Cambodian",
+    "official-name": "The Kingdom of Cambodia"
+  },
+  "KI": {
+    "entry-number": "96",
+    "item-hash": "sha-256:69eeacbe31eb280ee93fee5b3e701a58f3f31c3180d887932b7fdb07e6b8f319",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Kiribati",
+    "country": "KI",
+    "start-date": "1979-07-12",
+    "citizen-names": "Citizen of Kiribati",
+    "official-name": "The Republic of Kiribati"
+  },
+  "KM": {
+    "entry-number": "45",
+    "item-hash": "sha-256:7d7c106548431f31218df1535a93a35ea3b3f22d2bf9318d674c927ccef8fe9a",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Comoros",
+    "country": "KM",
+    "start-date": "1975-07-06",
+    "citizen-names": "Comoran",
+    "official-name": "The Union of the Comoros"
+  },
+  "KN": {
+    "entry-number": "152",
+    "item-hash": "sha-256:b1e504729906351725c3129717e8ffdb3d6c3f295d5bfa7e09d1985062fa0752",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "St Kitts and Nevis",
+    "country": "KN",
+    "start-date": "1983-09-19",
+    "citizen-names": "Citizen of St Christopher (St Kitts) and Nevis",
+    "official-name": "The Federation of Saint Christopher and Nevis"
+  },
+  "KP": {
+    "entry-number": "97",
+    "item-hash": "sha-256:417078064cda8a732469ca7c3908e4a3bb8be7e5b262b7304c7aa050661164c0",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "North Korea",
+    "country": "KP",
+    "citizen-names": "Citizen of the Democratic People's Republic of Korea;Citizen of the DPRK",
+    "official-name": "The Democratic People's Republic of Korea"
+  },
+  "KR": {
+    "entry-number": "98",
+    "item-hash": "sha-256:cfcb269265bf8cae36bca46d6681f7134b168b2aeceef4131809594b0e6ecde8",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "South Korea",
+    "country": "KR",
+    "citizen-names": "South Korean",
+    "official-name": "The Republic of Korea"
+  },
+  "KW": {
+    "entry-number": "100",
+    "item-hash": "sha-256:eb3ee00e6149cd734a7fa7e1f01a5fbf5fb50e1b38a065fd97d6ad3017750351",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Kuwait",
+    "country": "KW",
+    "citizen-names": "Kuwaiti",
+    "official-name": "The State of Kuwait"
+  },
+  "KZ": {
+    "entry-number": "94",
+    "item-hash": "sha-256:5cdae4a0d6da81a7615d20f1ece6a6bc8ab50bfe7b010b08bd484c7470945d45",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Kazakhstan",
+    "country": "KZ",
+    "start-date": "1991-12-16",
+    "citizen-names": "Kazakh",
+    "official-name": "The Republic of Kazakhstan"
+  },
+  "LA": {
+    "entry-number": "102",
+    "item-hash": "sha-256:490636974f8087e4518d222eba08851dd3e2b85095f2b1427ff6ecd3fa482435",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Laos",
+    "country": "LA",
+    "citizen-names": "Lao",
+    "official-name": "The Lao People's Democratic Republic"
+  },
+  "LB": {
+    "entry-number": "104",
+    "item-hash": "sha-256:d411b3c908d55f6f80daa30ad693c1ebe9f08dd5530365b0f62389b1a13cac94",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Lebanon",
+    "country": "LB",
+    "citizen-names": "Lebanese",
+    "official-name": "The Lebanese Republic"
+  },
+  "LC": {
+    "entry-number": "153",
+    "item-hash": "sha-256:80100f293b5b6e949af810887c84ebe7e79dfd030051a2cade595e3312413215",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "St Lucia",
+    "country": "LC",
+    "start-date": "1979-02-22",
+    "citizen-names": "St Lucian",
+    "official-name": "Saint Lucia"
+  },
+  "LI": {
+    "entry-number": "108",
+    "item-hash": "sha-256:065f76e9e547c6d8e915314a1b78337514fec0c264b555689e78ffd47acd9fec",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Liechtenstein",
+    "country": "LI",
+    "citizen-names": "Liechtenstein citizen",
+    "official-name": "The Principality of Liechtenstein"
+  },
+  "LK": {
+    "entry-number": "171",
+    "item-hash": "sha-256:9a5991d953e2859aa9758f97fc6662ddf2c680e8d23a5e2936cc4957fd853c7b",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Sri Lanka",
+    "country": "LK",
+    "citizen-names": "Citizen of Sri Lanka",
+    "official-name": "The Democratic Socialist Republic of Sri Lanka"
+  },
+  "LR": {
+    "entry-number": "106",
+    "item-hash": "sha-256:bf65db91e00af3ab318e594047a245ea34402493847ddde2a141ddbb6d1d3445",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Liberia",
+    "country": "LR",
+    "citizen-names": "Liberian",
+    "official-name": "The Republic of Liberia"
+  },
+  "LS": {
+    "entry-number": "105",
+    "item-hash": "sha-256:7c0ff61a59fd3997ba2c9fb12565cf00d75ba8eccdf863aa76f092a244f9e2c7",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Lesotho",
+    "country": "LS",
+    "citizen-names": "Citizen of Lesotho",
+    "official-name": "The Kingdom of Lesotho"
+  },
+  "LT": {
+    "entry-number": "109",
+    "item-hash": "sha-256:a9a56275429799939c8f38a189f203646efff235f1aa58510896a6d576b17742",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Lithuania",
+    "country": "LT",
+    "start-date": "1990-03-11",
+    "citizen-names": "Lithuanian",
+    "official-name": "The Republic of Lithuania"
+  },
+  "LU": {
+    "entry-number": "110",
+    "item-hash": "sha-256:b00a1d254e6d187190abe43c8d87c76189d3e18a1c64ea88e365bfe75fe5508a",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Luxembourg",
+    "country": "LU",
+    "citizen-names": "Luxembourger",
+    "official-name": "The Grand Duchy of Luxembourg"
+  },
+  "LV": {
+    "entry-number": "103",
+    "item-hash": "sha-256:c1de7c598cc2b326018a66b006ad5db9a663ce012d897c223b25db36ca8382d1",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Latvia",
+    "country": "LV",
+    "start-date": "1990-05-04",
+    "citizen-names": "Latvian",
+    "official-name": "The Republic of Latvia"
+  },
+  "LY": {
+    "entry-number": "107",
+    "item-hash": "sha-256:c1d32fcf8ee4a7f18c5765fddf3a6054ff003824f4e9b4882e43370f88811097",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Libya",
+    "country": "LY",
+    "citizen-names": "Libyan",
+    "official-name": "Libya"
+  },
+  "MA": {
+    "entry-number": "127",
+    "item-hash": "sha-256:3e9d91be962450c1fc5d72f515a74f42a4d2fa9bfd9631df8fa3cac0d1968487",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Morocco",
+    "country": "MA",
+    "citizen-names": "Moroccan",
+    "official-name": "The Kingdom of Morocco"
+  },
+  "MC": {
+    "entry-number": "124",
+    "item-hash": "sha-256:e341b8f5bbf862b956e81a86ac3e8f86c9ec3c64b9cf4dc048fcc666e09844c1",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Monaco",
+    "country": "MC",
+    "citizen-names": "Monegasque",
+    "official-name": "The Principality of Monaco"
+  },
+  "MD": {
+    "entry-number": "123",
+    "item-hash": "sha-256:5c01391d74afde44cf4009333d79d031de97625e8709c9ba6c585c6b7d8c1e0d",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Moldova",
+    "country": "MD",
+    "start-date": "1991-08-27",
+    "citizen-names": "Moldovan",
+    "official-name": "The Republic of Moldova"
+  },
+  "ME": {
+    "entry-number": "126",
+    "item-hash": "sha-256:d98c3da67cfba4c2c227a5d4e3301dcf9c2acfc4db05b2fba0661099e1e6372e",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Montenegro",
+    "country": "ME",
+    "citizen-names": "Montenegrin",
+    "official-name": "Montenegro"
+  },
+  "MG": {
+    "entry-number": "112",
+    "item-hash": "sha-256:22e2594c9b5845e2be21e27c0681132f0fbf7c38107c6da6d159f5b4626788c8",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Madagascar",
+    "country": "MG",
+    "citizen-names": "Citizen of Madagascar",
+    "official-name": "The Republic of Madagascar"
+  },
+  "MH": {
+    "entry-number": "118",
+    "item-hash": "sha-256:541cd698077a663db8f45277a856fb3643304fcd2304aada085aab73505a9df3",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Marshall Islands",
+    "country": "MH",
+    "start-date": "1986-10-21",
+    "citizen-names": "Marshall Islander",
+    "official-name": "The Republic of the Marshall Islands"
+  },
+  "MK": {
+    "entry-number": "111",
+    "item-hash": "sha-256:af8130b639bb8a675234c313dd763781a7da4e13b7529583d3a3a26c9f580fa7",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Macedonia",
+    "country": "MK",
+    "start-date": "1991-09-08",
+    "citizen-names": "Macedonian",
+    "official-name": "The Republic of Macedonia"
+  },
+  "ML": {
+    "entry-number": "116",
+    "item-hash": "sha-256:1502d9c3dd5d74d59f2d5d0f22c0a6b671c4e056041e20ca85b88fe4c937c75e",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Mali",
+    "country": "ML",
+    "citizen-names": "Malian",
+    "official-name": "The Republic of Mali"
+  },
+  "MM": {
+    "entry-number": "34",
+    "item-hash": "sha-256:d826a3c8c191b08c3da4c7b61e9e8fc1dcb2d6501211df4814d9075f6b865164",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Burma",
+    "country": "MM",
+    "citizen-names": "Burmese",
+    "official-name": "The Republic of the Union of Myanmar"
+  },
+  "MN": {
+    "entry-number": "125",
+    "item-hash": "sha-256:67ea12cd877680cd4d0ecd268b89862eba47dac1c5ebe408629d16e4dbf25396",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Mongolia",
+    "country": "MN",
+    "citizen-names": "Mongolian",
+    "official-name": "Mongolia"
+  },
+  "MR": {
+    "entry-number": "119",
+    "item-hash": "sha-256:f45980872becc3957db957e35eb4e27b9cef3c313e3a94b375f95b3bd6fc72ab",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Mauritania",
+    "country": "MR",
+    "citizen-names": "Mauritanian",
+    "official-name": "The Islamic Republic of Mauritania"
+  },
+  "MT": {
+    "entry-number": "117",
+    "item-hash": "sha-256:441fe1136fa701eb9ed74b5bcaf2ac80058712d0146ea0d04f00f9df8eecf14b",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Malta",
+    "country": "MT",
+    "citizen-names": "Maltese",
+    "official-name": "The Republic of Malta"
+  },
+  "MU": {
+    "entry-number": "120",
+    "item-hash": "sha-256:63d01b2084c1abdc65c0bed65aef8c06b8c83b973ef88ee646535a0c1438cd22",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Mauritius",
+    "country": "MU",
+    "citizen-names": "Mauritian",
+    "official-name": "The Republic of Mauritius"
+  },
+  "MV": {
+    "entry-number": "115",
+    "item-hash": "sha-256:f2a77c13d773efac02a5d06864b2bcf73bb310aa54819b6f000f3cf785042da3",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Maldives",
+    "country": "MV",
+    "citizen-names": "Maldivian",
+    "official-name": "The Republic of Maldives"
+  },
+  "MW": {
+    "entry-number": "113",
+    "item-hash": "sha-256:f920008062bcbdf4b131fda83452a53306458a79376678aa3f6f79dd82e0cce9",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Malawi",
+    "country": "MW",
+    "citizen-names": "Malawian",
+    "official-name": "The Republic of Malawi"
+  },
+  "MX": {
+    "entry-number": "121",
+    "item-hash": "sha-256:90a09c688085a772bd6441423768be6569a1cf9a07fefe781d7dd290586b2e7c",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Mexico",
+    "country": "MX",
+    "citizen-names": "Mexican",
+    "official-name": "The United Mexican States"
+  },
+  "MY": {
+    "entry-number": "114",
+    "item-hash": "sha-256:60e19a7cdbf3ab988827f7e9acacd3e2332f20ab884f9b131cdf43f6f5ea9c79",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Malaysia",
+    "country": "MY",
+    "citizen-names": "Citizen of Malaysia",
+    "official-name": "Malaysia"
+  },
+  "MZ": {
+    "entry-number": "128",
+    "item-hash": "sha-256:85f0d2dbe778055ea732d0794269b0d2644ade5abdf38369af812a56aa970a03",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Mozambique",
+    "country": "MZ",
+    "start-date": "1975-06-25",
+    "citizen-names": "Mozambican",
+    "official-name": "The Republic of Mozambique"
+  },
+  "NA": {
+    "entry-number": "129",
+    "item-hash": "sha-256:fe4265028d9164d9c15217a8903d45c41bf4a608584715e2f8897e4e58823b5b",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Namibia",
+    "country": "NA",
+    "start-date": "1980-03-21",
+    "citizen-names": "Namibian",
+    "official-name": "The Republic of Namibia"
+  },
+  "NE": {
+    "entry-number": "135",
+    "item-hash": "sha-256:77b37f9314a6b1310d59dfed862460f1a43c37213e780eca1c0a51dcbad4b452",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Niger",
+    "country": "NE",
+    "citizen-names": "Citizen of Niger",
+    "official-name": "The Republic of Niger"
+  },
+  "NG": {
+    "entry-number": "136",
+    "item-hash": "sha-256:790a98d2fb550158819bdbf744f53888f6f4a557f39df9cc814bf16de935c9eb",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Nigeria",
+    "country": "NG",
+    "citizen-names": "Nigerian",
+    "official-name": "The Federal Republic of Nigeria"
+  },
+  "NI": {
+    "entry-number": "134",
+    "item-hash": "sha-256:74316f67dff7d0bda653f30601824062a4354ad61edc698e99ce02a3aa065ea9",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Nicaragua",
+    "country": "NI",
+    "citizen-names": "Nicaraguan",
+    "official-name": "The Republic of Nicaragua"
+  },
+  "NL": {
+    "entry-number": "132",
+    "item-hash": "sha-256:b12534cbbfa6fc41cec278d4091c2f1c9de96532466e5b74937803bf84e2bd14",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Netherlands",
+    "country": "NL",
+    "citizen-names": "Dutch citizen;Dutchman;Dutchwoman",
+    "official-name": "The Kingdom of the Netherlands"
+  },
+  "NO": {
+    "entry-number": "137",
+    "item-hash": "sha-256:d5873302cd845c721f0da4d7f44a9502825c1d944ef6dc3057941c889258fbe0",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Norway",
+    "country": "NO",
+    "citizen-names": "Norwegian",
+    "official-name": "The Kingdom of Norway"
+  },
+  "NP": {
+    "entry-number": "131",
+    "item-hash": "sha-256:114291b927f4189d866ecf6c3cddd0fbc908df838e73fd3c36711a5767cf97fd",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Nepal",
+    "country": "NP",
+    "citizen-names": "Nepalese",
+    "official-name": "The Federal Democratic Republic of Nepal"
+  },
+  "NR": {
+    "entry-number": "130",
+    "item-hash": "sha-256:cd72b9665e571588335a83b4f35daac33796ce0d9b6abe40888b6567685ab36c",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Nauru",
+    "country": "NR",
+    "citizen-names": "Nauruan",
+    "official-name": "The Republic of Nauru"
+  },
+  "NZ": {
+    "entry-number": "133",
+    "item-hash": "sha-256:a21357c7fbdb8ff03bee42853c97aa0f993cc12e65e55c48f5d5aea85adf70ad",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "New Zealand",
+    "country": "NZ",
+    "citizen-names": "New Zealander",
+    "official-name": "New Zealand"
+  },
+  "OM": {
+    "entry-number": "138",
+    "item-hash": "sha-256:fd9f928852ad89811c5e1387b030d463b8c35e59421c415b91b614c4cc314892",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Oman",
+    "country": "OM",
+    "citizen-names": "Omani",
+    "official-name": "The Sultanate of Oman"
+  },
+  "PA": {
+    "entry-number": "141",
+    "item-hash": "sha-256:4c1aee395ff77743bdd99a036d4573c527674fa4cdf2f085e3aa8cd99f22ce4e",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Panama",
+    "country": "PA",
+    "citizen-names": "Panamanian",
+    "official-name": "The Republic of Panama"
+  },
+  "PE": {
+    "entry-number": "144",
+    "item-hash": "sha-256:901dcacd3609e3adf154f509e553e2524fcdeaeb20f3871520d52c541ccc9fe3",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Peru",
+    "country": "PE",
+    "citizen-names": "Peruvian",
+    "official-name": "The Republic of Peru"
+  },
+  "PG": {
+    "entry-number": "142",
+    "item-hash": "sha-256:e36519b5b0cb4556af87a0705ac7e4f53ab81e733d01e58965148c49f7eab82c",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Papua New Guinea",
+    "country": "PG",
+    "start-date": "1975-09-16",
+    "citizen-names": "Papua New Guinean",
+    "official-name": "The Independent State of Papua New Guinea"
+  },
+  "PH": {
+    "entry-number": "145",
+    "item-hash": "sha-256:9202549fa85ecc1a72ce62d640a08cd296ab7dff834732decdcbb370b49b9293",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Philippines",
+    "country": "PH",
+    "citizen-names": "Filipino;Filipina",
+    "official-name": "The Republic of the Philippines"
+  },
+  "PK": {
+    "entry-number": "139",
+    "item-hash": "sha-256:23493ee9ddcd592719cfc04ca769dc3e8b06836d7119583cf2b11bb24fc9e978",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Pakistan",
+    "country": "PK",
+    "citizen-names": "Pakistani",
+    "official-name": "The Islamic Republic of Pakistan"
+  },
+  "PL": {
+    "entry-number": "146",
+    "item-hash": "sha-256:ecc388970f6c58a552f3b5c65847867d024d4a984a2e81a3f587cb829807d9c1",
+    "entry-timestamp": "2016-04-05T13:23:05Z",
+    "name": "Poland",
+    "country": "PL",
+    "citizen-names": "Pole",
+    "official-name": "The Republic of Poland"
+  }
+}

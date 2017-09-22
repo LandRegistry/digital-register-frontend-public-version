@@ -1,0 +1,282 @@
+{% extends "layouts/layout.html" %}
+
+{% block title %}{{ _('Summary of title') }} {{ title.number }}{% endblock %}
+
+{% block header_primary %}
+  {% with title='Search again', url=url_for('find_titles') %}
+    {% include 'includes/back_link.html' %}
+  {% endwith %}
+{% endblock %}
+
+{% block header_secondary %}
+  {% include 'includes/language_switcher.html' %}
+{% endblock %}
+
+{% block ga_pageview %}
+  ga('set', 'page', '{{request.path}}?{{ request.query_string.decode('utf-8') }}')
+
+  ga('send', 'pageview', {
+    'anonymizeIp': true,
+    'title': 'Summary of title {{ encrypted_title_number }}'
+  })
+{% endblock %}
+
+{% block body %}
+
+  <h1 class="heading-large spacing-top-single">{{ title.summary_heading }} {{ title.number }}</h1>
+
+  <div class="grid-row">
+    <div class="column-fluid">
+      <p>Purchased on {{receipt.date}}</p>
+      <p>{{ _('This information can change if we receive an application. This service is unable to tell you whether or not there is an application pending with HM Land Registry.') }}</p>
+
+      <dl class="definition-tabular definition-tabular-sectioned spacing-top-single">
+
+        {% if is_caution_title %}
+          <dt class="bold-small">Caution</dt>
+          <dd>
+            <details class="font-xsmall">
+              <summary class="bold-small">What does Caution mean?</summary>
+              <div class="panel">
+                <p>This property hasn’t been registered yet. You can’t find out who owns it from this service. </p>
+                <p>Someone other than the owner (known as the ‘cautioner’) has registered a right or interest in the property. They will be told if anyone tries to register it, and can object to the registration going ahead until their claim has been looked at. You can get their name and address from this service.</p>
+                <p>Registration has only been compulsory since the 1990s. Property that hasn’t changed hands since then may not be registered.</p>
+              </div>
+            </details>
+          </dd>
+        {% endif %}
+
+        {% if title.address_lines %}
+          <dt>{{ _('Address') }}</dt>
+          <dd class="bold-medium">
+            <div class="address">
+              {%- for line in title.address_lines -%}
+                <span>{{line}}</span>
+              {%- endfor -%}
+            </div>
+          </dd>
+        {% endif %}
+
+      </dl>
+    </div>
+
+    {% if show_summary_map %}
+      <div class="column-fixed spacing-bottom-single">
+        {% if title.indexPolygon %}
+          <div class="fpi-map-container">
+            <div class="fpi-map-outer">
+              <div class="map fpi-map polygon" id="map" data-map-json="map-data">
+                <p>{{ _('The map relies on JavaScript being enabled in your browser.') }}</p>
+              </div>
+            </div>
+
+            <script type="application/json" id="map-data">
+              {{ title['indexPolygon'] | tojson }}
+            </script>
+
+            <p class="font-xsmall fpi-map-note">{{ _('This map shows the property\'s rough extent and location, <strong class="bold">not legal boundaries.</strong>') }}</p>
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="grid-row">
+    <div class="column-fluid">
+      <dl class="definition-tabular definition-tabular-sectioned">
+
+        <dt>{{ title.proprietor_type_heading }}</dt>
+
+        {% for proprietor in title.proprietors %}
+          <dd>
+            <h2 class="bold">{{ proprietor.name }} {{ proprietor.name_extra_info }}</h2>
+            {% if proprietor.co_reg_no %}
+              <h3 class="visuallyhidden">Company registration number</h3>
+              <div>{{ proprietor.co_reg_no }}</div>
+
+              {% if proprietor.company_location %}
+                <h3 class="visuallyhidden">Company location</h3>
+                <div>{{ proprietor.company_location }}</div>
+              {% endif %}
+            {% endif %}
+
+            <h3 class="visuallyhidden">Addresses</h3>
+            {% for address in proprietor.addresses %}
+              <div class="address spacing-top-half">
+                {% for line in address.lines %}
+                  <span>{{ line|safe }}</span>
+                {% endfor %}
+              </div>
+            {% endfor %}
+          </dd>
+        {% endfor %}
+
+        {% if title.lenders %}
+          <dt>{{ _('Lender') }}{{ title.lenders|length|pluralize }}</dt>
+          {% for lender in title.lenders %}
+            <dd>
+              <h2 class="bold">{{ lender.name }} {{ lender.name_extra_info }}</h2>
+
+              {% if lender.co_reg_no %}
+                <div>{{ lender.co_reg_no }}</div>
+              {% endif %}
+
+              {% if lender.company_location %}
+                <div>{{ lender.company_location }}</div>
+              {% endif %}
+
+              {% for address in lender.addresses %}
+                <div class="address spacing-bottom-half">
+                  {% for line in address.lines %}
+                    <span>{{ line|safe }}</span>
+                  {% endfor %}
+                </div>
+              {% endfor %}
+            </dd>
+          {% endfor %}
+        {% endif %}
+
+        <dt>{{ _('Tenure type') }}</dt>
+        <dd class="bold">{{ title.tenure }}</dd>
+
+        {% if title.ppi_data %}
+          <dt>{{ _('Price paid') }}</dt>
+          <dd class="bold">{{ title.ppi_data }}</dd>
+        {% endif %}
+
+      </dl>
+
+      <p class="spacing-top-single">{{ _('This title was last changed on') }} <time datetime="{{ title.last_changed | date }}">{{ title.last_changed | date }} {{ _('at') }} {{ title.last_changed | time }}</time></p>
+    </div>
+  </div>
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <div class="printhidden">
+
+        {% if title_summary_download %}
+          <div class="island">
+            <h2 class="heading-medium spacing-top-third">Download or print</h2>
+            <p>If you want to keep this information or need a VAT receipt</p>
+
+            <ul class="list list-bullet spacing-bottom-flush">
+              <li><a data-pdf-download href="{{ url_for('display_summary_pdf', title_number=title.number, transid=receipt.trans_id) }}">download a copy<span class="visuallyhidden"> of this property summary</span></a></li>
+              <li><button class="link-button" data-print>print a copy<span class="visuallyhidden"> of this property summary</span></button></li>
+            </ul>
+          </div>
+
+        {% else %}
+          <div class="govuk-box-highlight">
+            <p>
+              <strong class="bold">{{ _('You\'ll only be able to view this information once') }}</strong>
+              <br>{{ _('If you want to keep a copy you can print it out') }}
+            </p>
+
+            {% include 'includes/print-button.html' %}
+          </div>
+        {% endif %}
+
+
+
+
+        <h2 class="heading-medium collapse-top">What did you think of this service?</h2>
+        <p><a rel="external" href="{{govuk_feedback_url}}">Please give us your feedback</a> (takes 30 seconds). <br>This is a new service and your feedback will help us improve it.</p>
+
+      </div>
+
+      <hr>
+
+      {% if receipt %}
+
+        <div class="vat-receipt page-break-before font-xsmall">
+          <h2 class="heading-medium">VAT receipt</h2>
+          <div class="grid-row">
+            <div class="column-two-thirds mobile-column-one-half">
+              <dl class="definition-tabular definition-tabular-1-2">
+
+                {% if receipt.date %}
+                  <dt class="bold">Date</dt>
+                  <dd>{{receipt.date}}</dd>
+                {% endif %}
+
+                {% if receipt.trans_id %}
+                  <dt class="bold">Transaction ID</dt>
+                  <dd>{{ receipt.trans_id }}</dd>
+                {% endif %}
+
+                {% if receipt.title_number %}
+                  <dt class="bold">Description</dt>
+                  <dd>{{title.summary_heading}}: {{ receipt.title_number }}</dd>
+                {% endif %}
+
+                {% if receipt.net %}
+                  <dt class="bold">Net amount</dt>
+                  <dd>&pound;{{receipt.net}}</dd>
+                {% endif %}
+
+                {% if receipt.vat %}
+                  <dt class="bold">VAT @ 20%</dt>
+                  <dd>&pound;{{ receipt.vat }}</dd>
+                {% endif %}
+
+                {% if receipt.total %}
+                  <dt class="bold">Total inc VAT</dt>
+                  <dd>&pound;{{ receipt.total }}</dd>
+                {% endif %}
+
+              </dl>
+            </div>
+            <div class="column-one-third mobile-column-one-half">
+              {% if receipt.address1 %}
+                <div itemscope="" itemtype="http://schema.org/Organization">
+                  <span itemprop="name" class="bold">{{ receipt.address1 }}</span>
+                  <div class="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">{{ receipt.address2 }}<br>{{ receipt.address3 }}</span>
+                    <span itemprop="addressLocality">{{ receipt.address4 }}</span>
+                    <span itemprop="postalCode">{{ receipt.postcode }}</span>
+                  </div>
+                </div>
+
+                {% if receipt.reg_number %}
+                  <p class="spacing-top-single-third"><strong class="bold">VAT registration number:</strong><br> {{ receipt.reg_number }}</p>
+                {% endif %}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
+      {% endif %}
+
+      <div class="panel panel-border-narrow spacing-top-single">
+        <p>{{ _('If you have any problems with your purchase, you can contact HM Land Registry using the <a href="http://landregistry.custhelp.com/app/contactus_general/">general enquiry contact form</a> or call <a class="bold" href="tel:+443000060411">0300 006 0411</a>.') }}</p>
+      </div>
+
+      <hr>
+
+      <div class="printhidden">
+        <h2 class="heading-medium">{{ _('What next') }}</h2>
+        <ul class="list list-bullet">
+          <li><a href="{{ url_for('find_titles') }}">{{ _('Search again') }}</a></li>
+          <li><a href="https://gov.uk">{{ _('Return to') }} GOV.UK</a></li>
+          <li><a href="../../../../../../../pkmslogout">Sign out</a></li>
+        </ul>
+      </div>
+
+      {% if full_title_data %}
+        <hr class="spacing-top-double">
+        <div style="outline: 2px dashed red;padding:20px">
+          {% include 'includes/full_title_data.html' %}
+        </div>
+      {% endif %}
+
+    </div>
+
+  </div>
+{% endblock %}
+
+{% block js_additionals %}
+  {% if title.indexPolygon and show_summary_map %}
+    {% assets "js_map" %}<script src="{{ ASSET_URL }}"></script>{% endassets %}
+  {% endif %}
+{% endblock %}

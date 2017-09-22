@@ -1,0 +1,4 @@
+<a class="back-link{% if jsOnly %} js-only{% endif %}" href="{{url}}"{% if historyBased %} data-back-link{% endif %}>
+  {% if prefix %}<span class="back-link-prefix">{{prefix}}</span>{% endif %}
+  <span class="back-link-destination">{{title}}</span>
+</a>

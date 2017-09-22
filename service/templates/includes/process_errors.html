@@ -1,0 +1,11 @@
+{% if processerrors %}
+  <div class="error-summary" role="group" aria-labelledby="error-summary-heading" tabindex="-1">
+    <h2 class="heading-medium error-summary-heading" id="error-summary-heading">The following errors were found:</h2>
+
+    <ul class="error-summary-list">
+      {% for item in processerrors %}
+        <li>{{ item|safe }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

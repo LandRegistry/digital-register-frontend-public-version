@@ -1,0 +1,187 @@
+{% extends "layouts/layout.html" %}
+{% import 'macros/form.html' as field %}
+
+{% block title %}Register{% endblock %}
+
+{% block header_primary %}
+  {% with title='Back', historyBased=True, jsOnly=True %}
+    {% include 'includes/back_link.html' %}
+  {% endwith %}
+{% endblock %}
+
+{% block body %}
+
+  <h1 class="heading-large">Create an account</h1>
+
+  <div class="grid-row">
+
+    <div class="column-two-thirds tablet-column-two-thirds">
+
+      {% include 'includes/flash_messages.html' %}
+
+      <p class="lede">Due to the information this service reveals, we ask people to create an account with us.</p>
+
+      <form class="spacing-top-double" action="{{ url_for('submit_create_account') }}" method="post" novalidate data-clientside-validation="create_account_form_validation">
+
+        {% include 'includes/form_errors.html' %}
+
+        {% include 'includes/process_errors.html' %}
+
+        {{ form.hidden_tag() }}
+
+        {{ form.encrypted_title_number }}
+        {{ form.search_term }}
+
+        <fieldset>
+
+          <legend class="visuallyhidden">Account details</legend>
+
+          {{ field.element(
+                        form,
+                        name='email',
+                        attributes={'data-email-hint': True, 'data-session-storage-get': 'find-property-information-email', 'autocomplete': 'email', 'type': 'email'},
+                        label='Email address <a href="#why-do-we-need-email" class="font-xsmall split-detail-trigger spacing-left-single">Our email usage policy</a>',
+                        after_label='<div class="split-detail-contents font-xsmall" id="why-do-we-need-email"><div class="panel panel-border-narrow spacing-bottom-single spacing-top-half"><p>Your email address will be used to log into the service in future. We will also use this to allow you to reset your password.</p><p>We won\'t use your email address for any purposes other than access to this service.</p><p>We won\'t share your email with third parties.</p></div></div>'
+                      ) }}
+
+          {{ field.element(
+                        form,
+                        name='password',
+                        attributes={'type': 'password'}
+                      ) }}
+          {{ field.element(
+                        form,
+                        name='password_retype',
+                        attributes={'type': 'password'},
+                        hint='<p class="form-hint">Your password must:</p> <ul class="form-hint list list-bullet"><li>be between 8 and 20 characters</li><li>contain 2 numbers</li><li>not contain the symbols &pound; &#x20AC; &#x00AC; &#x00A6;</li></ul>'
+                      ) }}
+
+        </fieldset>
+
+        <h2 class="heading-medium">Your details</h2>
+
+        <fieldset>
+
+          <legend class="visuallyhidden">Your details</legend>
+
+          {{ field.element( form, name='title', attributes={'autocomplete': 'honorific-prefix'} ) }}
+
+          {{ field.element( form, name='firstname', attributes={'autocomplete': 'given-name'} ) }}
+
+          {{ field.element( form, name='surname', attributes={'autocomplete': 'family-name'} ) }}
+
+          {{ field.element( form, name='phone', attributes={'autocomplete': 'tel'} ) }}
+
+        </fieldset>
+
+        <h2 class="heading-medium">Address</h2>
+
+        <fieldset>
+
+          <legend class="visuallyhidden">Address</legend>
+
+          {{ field.element( form, name='address1', attributes={'autocomplete': 'address-line1'} ) }}
+
+          {{ field.element( form, name='city', attributes={'autocomplete': 'address-level2'} ) }}
+
+          {{ field.element( form, name='country', attributes={'autocomplete': 'country'} ) }}
+
+          {{ field.element( form, name='postcode', attributes={'autocomplete': 'postal-code'} ) }}
+
+        </fieldset>
+
+        {{ field.block_checkbox(form, name='terms') }}
+
+        <input type="submit" class="button spacing-top-single" value="Create account" data-double-click-prevention>
+      </form>
+
+      <div class="panel panel-border-narrow spacing-top-double">
+        <p>If you have any problems creating an account, you can <a href="https://www.gov.uk/government/organisations/land-registry/about/access-and-opening">contact HM Land Registry</a>.</p>
+      </div>
+
+
+      <script type="application/json" id="create_account_form_validation">
+        {
+          "email": {
+            "email": {
+              "message": "The email address you have entered is not valid"
+            },
+            "find_property_information_email": true,
+            "presence": {
+              "message": "Email address is required"
+            }
+          },
+          "password": {
+            "presence": {
+              "message": "Password is required"
+            },
+            "length": {
+              "minimum": 8,
+              "maximum": 20,
+              "message": "Password should be between 8 and 20 characters long. Characters can include letters, number and symbols."
+            },
+            "find_property_information_password": true
+          },
+          "password_retype": {
+            "presence": {
+              "message": "Please repeat your new password"
+            },
+            "equality": {
+              "attribute": "password",
+              "message": "Please ensure both password fields match"
+            }
+          },
+          "title": {
+            "presence": {
+              "message": "Title is required"
+            }
+          },
+          "firstname": {
+            "presence": {
+              "message": "First name is required"
+            }
+          },
+          "surname": {
+            "presence": {
+              "message": "Surname is required"
+            }
+          },
+          "address1": {
+            "presence": {
+              "message": "Address is required"
+            }
+          },
+          "city": {
+            "presence": {
+              "message": "Town or City is required"
+            }
+          },
+          "country": {
+            "presence": {
+              "message": "Country is required"
+            }
+          },
+          "postcode": {
+            "find_property_information_postcode": {
+              "message": "Postcode is required"
+            }
+          },
+          "terms": {
+            "presence": {
+              "message": "You must agree to our terms of use before continuing"
+            }
+          }
+        }
+      </script>
+
+    </div>
+
+    {# <div class="column-one-third tablet-column-one-third">
+      <aside class="supplementary-panel">
+        <h2 class="heading-medium">Need help with this service?</h2>
+        <p>Call HM Land Registry on {{ ccc_phone_number }} to report a problem or if you're stuck and need help.</p>
+      </aside>
+    </div> #}
+  </div>
+
+{% endblock %}

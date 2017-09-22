@@ -1,0 +1,23 @@
+{% extends "layouts/layout.html" %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block body %}
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      <h1 class="heading-large expand-bottom">{{title}}</h1>
+
+      <p>An error has occurred while processing your request.</p>
+      <p>We have not taken any money from you.</p>
+      <p>This new beta service is still in development and you may experience issues.  We apologise for any inconvenience caused.</p>
+      <p>You can return to the new service and try again, alternatively you may wish to <a href="https://eservices.landregistry.gov.uk/wps/portal/Property_Search">switch to our existing 'Find a Property' service</a> to get the information you require.</p>
+
+      <div class="panel panel-border-narrow spacing-top-double">
+        <p>If you feel you need further assistance please <a href="https://www.gov.uk/government/organisations/land-registry/about/access-and-opening">contact HM Land Registry</a>.</p>
+      </div>
+
+    </div>
+  </div>
+
+{% endblock %}

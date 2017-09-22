@@ -1,0 +1,45 @@
+{% extends "layouts/layout.html" %}
+
+{% block title %}Search results{% endblock %}
+
+{% block body %}
+
+  {% set display_page_number = results.get('page_number', 0) + 1 %}
+
+  <div class="grid-row spacing-top-single">
+    <div class="column-two-thirds tablet-column-two-thirds spacing-bottom-single">
+      {% with h1=true, autofocus=false, label='Search results for' %}
+        {% include 'includes/search_form.html' %}
+      {% endwith %}
+
+      <!-- <h2 class="font-xsmall">{{ results['number_results'] }} result{{ results['number_results']|pluralize }} found</h2> -->
+
+      {% if results['titles']|length == 0 %}
+        <p>0 results found</p>
+      {% endif %}
+
+      <ol class="search-results-listing">
+        {% for title in results['titles'] %}
+          <li>
+            {% set results_loop = loop %}
+            {% include 'includes/register_teaser.html' %}
+          </li>
+        {% endfor %}
+      </ol>
+
+      {% if results['number_pages'] %}
+        {% include 'includes/pagination.html' %}
+      {% endif %}
+
+      <p class="font-xsmall spacing-top-double">Use of this address data is subject to <a href="{{ ordnance_survey_terms_url }}">Ordnance Survey licence terms and conditions</a></p>
+    </div>
+
+    <div class="column-one-third tablet-column-one-third">
+      <aside class="supplementary-panel">
+        <h2 class="heading-medium">Need help with this service?</h2>
+        <p>If the property you want isn't listed, use the <a rel="external" href="https://eservices.landregistry.gov.uk/wps/portal/Property_Search">Find a Property service</a> instead to search by street address, title number or by using a map.</p>
+        {# <p>Call HM Land Registry on {{ ccc_phone_number }} to report a problem or if you're stuck and need help.</p> #}
+      </aside>
+    </div>
+  </div>
+{% endblock %}

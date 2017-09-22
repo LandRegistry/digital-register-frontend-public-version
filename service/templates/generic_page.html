@@ -1,0 +1,26 @@
+{% extends "layouts/layout.html" %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block header_primary %}
+  {% if back_link %}
+    {% with title='Back', url='#', historyBased=True, jsOnly=True %}
+      {% include 'includes/back_link.html' %}
+    {% endwith %}
+  {% endif %}
+{% endblock %}
+
+{% block body %}
+
+  <h1 class="heading-xlarge expand-bottom">{{title}}{% if sub_heading %}<span class="visuallyhidden"> -</span> <span class="heading-secondary">{{ sub_heading }}</span>{% endif %}</h1>
+
+  <article class="text">
+    {{content|safe}}
+  </article>
+
+  {% if back_link %}
+    {% with title='Back', url='#', historyBased=True, jsOnly=True %}
+      {% include 'includes/back_link.html' %}
+    {% endwith %}
+  {% endif %}
+{% endblock %}

@@ -1,0 +1,94 @@
+{% set asset_path = '/ui/.dist/' %}
+
+{% extends "layouts/govuk_template.html" %}
+
+{% block head %}
+  <script>
+    var assetPath = '{{junction}}{{ url_for('static', filename='') }}.dist';
+  </script>
+
+  {% assets "govuk" %}<link href="{{ ASSET_URL }}" media="screen" rel="stylesheet" type="text/css" />{% endassets %}
+  {% assets "govuk_ie8" %}<!--[if IE 8]><link href="{{junction}}{{ ASSET_URL }}" media="all" rel="stylesheet" type="text/css" /><![endif]-->{% endassets %}
+  {% assets "govuk_ie7" %}<!--[if IE 7]><link href="{{junction}}{{ ASSET_URL }}" media="all" rel="stylesheet" type="text/css" /><![endif]-->{% endassets %}
+  {% assets "govuk_ie6" %}<!--[if IE 6]><link href="{{junction}}{{ ASSET_URL }}" media="all" rel="stylesheet" type="text/css" /><![endif]-->{% endassets %}
+
+  {% assets "govuk_print" %}<link href="{{ ASSET_URL }}" media="print" rel="stylesheet" type="text/css" />{% endassets %}
+
+  {% assets "elements" %}<!--[if gt IE 8]><!--><link href="{{ ASSET_URL }}" media="all" rel="stylesheet" type="text/css" /><!--<![endif]-->{% endassets %}
+  {% assets "elements_ie8" %}<!--[if IE 8]><link href="{{junction}}{{ ASSET_URL }}" media="all" rel="stylesheet" type="text/css" /><![endif]-->{% endassets %}
+  {% assets "elements_ie7" %}<!--[if IE 7]><link href="{{junction}}{{ ASSET_URL }}" media="all" rel="stylesheet" type="text/css" /><![endif]-->{% endassets %}
+  {% assets "elements_ie6" %}<!--[if IE 6]><link href="{{junction}}{{ ASSET_URL }}" media="all" rel="stylesheet" type="text/css" /><![endif]-->{% endassets %}
+
+  <!--[if lte IE 11]>{% assets "js_promise" %}<script src="{{junction}}{{ ASSET_URL }}"></script>{% endassets %}<![endif]-->
+  <!--[if lte IE 9]>{% assets "js_polyfills_ie9" %}<script src="{{junction}}{{ ASSET_URL }}"></script>{% endassets %}<![endif]-->
+  <!--[if lte IE 8]>{% assets "js_polyfills_ie8" %}<script src="{{junction}}{{ ASSET_URL }}"></script>{% endassets %}<![endif]-->
+
+  <script>
+    window.google_api_key = '{{ google_api_key }}'
+    window.printIntentEventLabel = '{{print_intent_event_label}}'
+
+    ;(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga')
+
+    ga('create', window.google_api_key, 'auto')
+
+    {% block ga_pageview %}
+      ga('set', 'page', '{{request.path}}?{{ request.query_string.decode('utf-8') }}')
+
+      ga('send', 'pageview', {
+        'anonymizeIp': true
+      })
+    {% endblock %}
+  </script>
+{% endblock %}
+
+{% block page_title %}{% block title %}{% endblock %}{%if self.title() %} - {% endif %}Find property information{% endblock %}
+
+{% block header_class %}with-proposition{% endblock %}
+
+{% block proposition_header %}
+  <div class="header-proposition">
+    <div class="content">
+      <nav id="proposition-menu">
+        <span id="proposition-name">Find property information</span>
+      </nav>
+    </div>
+  </div>
+{% endblock %}
+
+{% block cookie_message %}
+  <p>HM Land Registry uses cookies to make the site simpler. <a href="/cookies">Find out more about cookies</a></p>
+{% endblock %}
+
+{% block content %}
+  <main id="content" role="main">
+    {% include 'includes/phase_banner.html' %}
+
+    <div class="grid-row printhidden">
+      <div class="column-two-thirds mobile-column-one-half">
+        {% block header_primary %}{% endblock %}
+      </div>
+      <div class="column-third mobile-column-one-half">
+        {% block header_secondary %}{% endblock %}
+      </div>
+    </div>
+
+    {% block body %}{% endblock %}
+  </main>
+{% endblock %}
+
+{% block footer_support_links %}
+  <ul>
+    <li><a href="/terms-of-use">Terms of use</a></li>
+    <li><a href="https://www.gov.uk/government/organisations/land-registry/about/personal-information-charter">Privacy policy</a></li>
+    <li><a href="/cookies">Cookies</a></li>
+    <li>Built by <a href="https://www.gov.uk/government/organisations/land-registry">HM Land Registry</a></li>
+  </ul>
+{% endblock %}
+
+{% block body_end %}
+  {% assets "js" %}<script src="{{ ASSET_URL }}"></script>{% endassets %}
+  {% block js_additionals %}{% endblock %}
+{% endblock %}

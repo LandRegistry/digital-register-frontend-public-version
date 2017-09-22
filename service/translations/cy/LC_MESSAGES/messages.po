@@ -1,0 +1,125 @@
+# Welsh translations for PROJECT.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-11-23 16:11+0000\n"
+"PO-Revision-Date: 2015-11-19 11:30+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: cy <LL@li.org>\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 1 : n==2 ? 2 : n==3 ? 3 : n==6 ?"
+" 4 : 0)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: service/templates/display_title.html:54
+msgid "Summary of caution title"
+msgstr "Crynodeb o deitl rhybuddiad"
+
+#: service/templates/display_title.html:56
+msgid "Summary of title"
+msgstr "Crynodeb o deitl"
+
+#: service/templates/display_title.html:61
+msgid "Summary of"
+msgstr "Crynodeb"
+
+#: service/templates/display_title.html:61
+msgid "caution"
+msgstr ""
+
+#: service/templates/display_title.html:61
+msgid "title"
+msgstr "deitl"
+
+#: service/templates/display_title.html:62
+msgid "This title was last changed on"
+msgstr "Newidiwyd y teitl hwn ddiwethaf ar"
+
+#: service/templates/display_title.html:62
+msgid "at"
+msgstr "am"
+
+#: service/templates/display_title.html:70
+msgid "Not Available"
+msgstr ""
+
+#: service/templates/display_title.html:75
+msgid "Title number"
+msgstr "Rhif teitl"
+
+#: service/templates/display_title.html:77
+msgid "Cautioner"
+msgstr ""
+
+#: service/templates/display_title.html:77
+msgid "Owner"
+msgstr "Perchennog"
+
+#: service/templates/display_title.html:95
+msgid "Lender"
+msgstr "Rhoddwr benthyg"
+
+#: service/templates/display_title.html:115
+msgid "Tenure type"
+msgstr "Math o ddaliadaeth"
+
+#: service/templates/display_title.html:120
+msgid "Price paid/stated"
+msgstr "Pris a dalwyd/datganwyd"
+
+#: service/templates/display_title.html:126
+msgid "You'll only be able to view this information once"
+msgstr "Byddwch ond yn gallu gweld y wybodaeth hon unwaith"
+
+#: service/templates/display_title.html:127
+msgid ""
+"If you want to keep a copy, you'll need to print it out or take a screen "
+"shot."
+msgstr ""
+"Os ydych chi am gadw copi , bydd angen i chi ei hargraffu neu gymryd "
+"ergyd sgrin"
+
+#: service/templates/display_title.html:129
+msgid "Print this page"
+msgstr "Argraffu’r dudalen hon"
+
+#: service/templates/display_title.html:138
+msgid "The map relies on JavaScript being enabled in your browser."
+msgstr ""
+
+#: service/templates/display_title.html:141
+msgid ""
+"This map shows the property's rough extent and location, <b>not legal "
+"boundaries.</b>"
+msgstr ""
+"Mae’r map hwn yn dangos maint a lleoliad bras yr eiddo, <b>nid terfynau "
+"cyfreithiol</b>"
+
+#: service/templates/display_title.html:155
+msgid "If you have any problems with your purchase, you can call Land Registry on"
+msgstr ""
+"Os oes gennych unrhyw broblemau gyda'ch pryniant , gallwch ffonio "
+"Gofrestrfa Tir ar"
+
+#: service/templates/display_title.html:156
+msgid "For more contact methods, visit "
+msgstr "I gael mwy o ddulliau cyswllt, ewch i "
+
+#: service/templates/display_title.html:160
+msgid "What next"
+msgstr "Beth nesaf"
+
+#: service/templates/display_title.html:162
+msgid "Search for another title using this service"
+msgstr "Chwilio am deitl arall gan ddefnyddio’r gwasanaeth hwn"
+
+#: service/templates/display_title.html:163
+msgid "Return to"
+msgstr "Yn ôl i"

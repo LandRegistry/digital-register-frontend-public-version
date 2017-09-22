@@ -1,0 +1,71 @@
+{% block body %}
+<!-- Worldpay Interface as a hidden "service" -->
+
+<main id="content" role="main">
+  <div id="processing" class="expand">
+    <h1 class="heading-xlarge">Redirecting to World Pay</h1>
+    <div>
+      <img src="{{junction}}{{ url_for('static', filename='/app/images/loader.gif') }}">
+    </div>
+    <br/><br>
+    <!-- Powered by Worldpay logo-->
+  </div>
+</main>
+
+<form  id="redirect" action="{{worldpay_params.worldpay_redirect_url}}" method="POST">
+  <!-- Mandatory parameters passed in from "payment request" form -->
+  <input type="hidden" id="cartId" name="cartId" value="{{worldpay_params.cartId}}">
+
+  <!-- Optional parameters that may be passed in from "payment request" form -->
+  <input type="hidden" id="desc" name="desc" value="{{worldpay_params.desc}}">
+  <input type="hidden" id="name" name="name" value="{{worldpay_params.forenames}} {{worldpay_params.surname}}">
+  <input type="hidden" id="email" name="email" value="{{worldpay_params.email}}">
+  <input type="hidden" id="address" name="address" value="{{worldpay_params.address}}">
+  <input type="hidden" id="postcode" name="postcode" value="{{worldpay_params.postcode}}">
+
+  <!-- Custom parameters passed in from "payment request" form -->
+  <!-- See http://support.worldpay.com/support/kb/bg/pdf/rhtml.pdf for details -->
+  <!-- Strictly speaking, "MC_timestamp" should be "M_timestamp", as it is for WPAC only -->
+  <input type="hidden" id="MC_timestamp" name="MC_timestamp" value="{{worldpay_params.MC_timestamp}}">
+  <input type="hidden" id="MC_purchaseType" name="MC_purchaseType" value="{{worldpay_params.MC_purchaseType}}">
+  <input type="hidden" id="MC_titleNumber" name="MC_titleNumber"	value="{{worldpay_params.MC_titleNumber}}">
+  <input type="hidden" id="MC_searchType" name="MC_searchType" value="{{worldpay_params.MC_searchType}}">
+  <input type="hidden" id="MC_userId" name="MC_userId" value="{{worldpay_params.MC_userId}}">
+
+  <!-- Mandatory parameters, from configuration file + environment -->
+  <input type="hidden" id="instId" name="instId" value="{{worldpay_params.instId}}">
+  <input type="hidden" id="authMode" name="authMode" value="{{worldpay_params.authMode}}">
+  <input type="hidden" id="accId1" name="accId1" value="{{worldpay_params.accId1}}">
+  <input type="hidden" id="currency" name="currency" value="{{worldpay_params.currency}}">
+  <input type="hidden" id="testMode" name="testMode" value="{{worldpay_params.testMode}}">
+  <input type="hidden" id="country" name="country" value="{{worldpay_params.country}}">
+  <input type="hidden" id="amount" name="amount"	value="{{worldpay_params.amount}}">
+
+  <!-- Custom parameters, from configuration file -->
+  <input type="hidden" id="MC_unitCount" name="MC_unitCount" value="{{worldpay_params.MC_unitCount}}">
+  <input type="hidden" id="MC_portalInd" name="MC_portalInd" value="{{worldpay_params.MC_portalInd}}">
+  <input type="hidden" id="MC_callbackUrl" name="MC_callbackUrl" value="{{worldpay_params.MC_callbackUrl}}">
+  <input type="hidden" id="C_returnURL" name="C_returnURL" value="{{worldpay_params.C_returnURL}}">
+  <input type="hidden" id="C_returnURLCancel" name="C_returnURLCancel" value="{{worldpay_params.C_returnURLCancel}}">
+  <input type="hidden" id="C_returnURLCallback" name="C_returnURLCallback" value="{{worldpay_params.C_returnURLCallback}}">
+  <noscript>
+    <div class="nav">
+      <input type="submit" class="last" style="text-decoration:underline; border:0; background:initial;" value="If this page appears for more than 3 seconds, click here" />
+    </div>
+  </noscript>
+</form>
+
+<div id='manual-submit-div' style='display:none;'>
+  <a href="#" onclick="submit_form(); return false";>If this page appears for more than 3 seconds, click here</a>
+</div>
+
+<script type="text/Javascript">
+
+  document.getElementById('redirect').submit();
+
+  var elem = document.getElementById('manual-submit-div');
+  elem.style.display = "block";
+
+</script>
+
+{% endblock %}
